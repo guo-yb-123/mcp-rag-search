@@ -1,0 +1,57 @@
+{
+  "A_BM25": {
+    "mrr@5": 0.9111,
+    "mrr@10": 0.9111,
+    "recall@5": 0.6402,
+    "recall@10": 0.7013,
+    "recall@20": 0.7957,
+    "recall@50": 0.9171,
+    "ndcg@5": 0.6904,
+    "ndcg@10": 0.6784,
+    "avg_latency_ms": 63.4
+  },
+  "B_Dense": {
+    "mrr@5": 0.9333,
+    "mrr@10": 0.9333,
+    "recall@5": 0.5144,
+    "recall@10": 0.5572,
+    "recall@20": 0.7213,
+    "recall@50": 0.8014,
+    "ndcg@5": 0.6579,
+    "ndcg@10": 0.6338,
+    "avg_latency_ms": 397.5
+  },
+  "C_Hybrid": {
+    "mrr@5": 0.9056,
+    "mrr@10": 0.9056,
+    "recall@5": 0.5025,
+    "recall@10": 0.813,
+    "recall@20": 1.0,
+    "recall@50": 1.0,
+    "ndcg@5": 0.6338,
+    "ndcg@10": 0.7391,
+    "avg_latency_ms": 56.6
+  },
+  "D_Hybrid_Reranker": {
+    "mrr@5": 0.7056,
+    "mrr@10": 0.7336,
+    "recall@5": 0.2539,
+    "recall@10": 0.4793,
+    "recall@20": 0.8257,
+    "recall@50": 1.0,
+    "ndcg@5": 0.373,
+    "ndcg@10": 0.461,
+    "avg_latency_ms": 4947.9
+  },
+  "E_FinetunedHN": {
+    "mrr@5": 0.6667,
+    "mrr@10": 0.6845,
+    "recall@5": 0.3006,
+    "recall@10": 0.4665,
+    "recall@20": 0.8368,
+    "recall@50": 1.0,
+    "ndcg@5": 0.3807,
+    "ndcg@10": 0.438,
+    "avg_latency_ms": 7049.3
+  }
+}
