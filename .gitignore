@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data / Models
+data/milvus.db/
+data/index/
+data/raw/*.json
+data/chunks/chunks.json
+models/
+
+# Evaluation results
+data/eval/experiment_results.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env

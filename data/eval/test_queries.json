@@ -1,0 +1,611 @@
+{
+  "description": "AI搜索评测集 — 阿里云文档搜索消融实验用",
+  "num_queries": 15,
+  "queries": [
+    {
+      "id": "q001",
+      "query": "如何给ECS实例扩容云盘",
+      "relevant_chunks": [
+        "25853eeec14f",
+        "9a0b837416a0",
+        "baf8a332fa32",
+        "4f11fa6cc214",
+        "025e675a9d7a",
+        "e7c5d11d1fab"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "25853eeec14f",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "9a0b837416a0",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "baf8a332fa32",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "4f11fa6cc214",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "025e675a9d7a",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "e7c5d11d1fab",
+          "relevance": 2
+        }
+      ]
+    },
+    {
+      "id": "q002",
+      "query": "安全组规则怎么配置",
+      "relevant_chunks": [
+        "88b38d0b71f7",
+        "6c7ad22ff368",
+        "51b638719b9c",
+        "f88684e33b07",
+        "64ccb0f6beb2"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "88b38d0b71f7",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "6c7ad22ff368",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "51b638719b9c",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "f88684e33b07",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "64ccb0f6beb2",
+          "relevance": 1
+        }
+      ]
+    },
+    {
+      "id": "q003",
+      "query": "什么是抢占式实例",
+      "relevant_chunks": [
+        "dfebd6656755",
+        "9cb63c843a8f",
+        "9c388cc714c6",
+        "45c5fdc470c0",
+        "f1edb26af9e2",
+        "e9660a65baa6",
+        "4e98538ab92b"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "dfebd6656755",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "9cb63c843a8f",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "9c388cc714c6",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "45c5fdc470c0",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "f1edb26af9e2",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "e9660a65baa6",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "4e98538ab92b",
+          "relevance": 2
+        }
+      ]
+    },
+    {
+      "id": "q004",
+      "query": "如何创建VPC和交换机",
+      "relevant_chunks": [
+        "0f4cbc519c1d",
+        "492d3a27c9e8",
+        "e8e0b1b5d1ec",
+        "b5eb98f9d23b",
+        "cf691675f50e",
+        "60a72e5adf9f",
+        "42ec56118fc3"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "0f4cbc519c1d",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "492d3a27c9e8",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "e8e0b1b5d1ec",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "b5eb98f9d23b",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "cf691675f50e",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "60a72e5adf9f",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "42ec56118fc3",
+          "relevance": 1
+        }
+      ]
+    },
+    {
+      "id": "q005",
+      "query": "ECS实例如何通过SSH密钥对登录",
+      "relevant_chunks": [
+        "a00a8f1be32e",
+        "55c6621d4b5e",
+        "f256472959ca",
+        "d6089db688b6",
+        "b5d36b42a576",
+        "e2d5ea4b052e",
+        "912b782ef07e",
+        "db6ed04637ad"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "a00a8f1be32e",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "55c6621d4b5e",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "f256472959ca",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "d6089db688b6",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "b5d36b42a576",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "e2d5ea4b052e",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "912b782ef07e",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "db6ed04637ad",
+          "relevance": 2
+        }
+      ]
+    },
+    {
+      "id": "q006",
+      "query": "快照和镜像有什么区别",
+      "relevant_chunks": [
+        "76599b78fcc2",
+        "ce43d1047a1b",
+        "38c048c2e06d",
+        "7672ec8ad98b",
+        "0789fb04e7cb"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "76599b78fcc2",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "ce43d1047a1b",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "38c048c2e06d",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "7672ec8ad98b",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "0789fb04e7cb",
+          "relevance": 1
+        }
+      ]
+    },
+    {
+      "id": "q007",
+      "query": "弹性保障是什么",
+      "relevant_chunks": [
+        "5e08feabce98",
+        "aa832464c5cf",
+        "656c00007153",
+        "cb04b85dc432",
+        "2e9fa0915dec",
+        "250474996461",
+        "ab9d1d92ca91",
+        "df3391aa937a"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "5e08feabce98",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "aa832464c5cf",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "656c00007153",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "cb04b85dc432",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "2e9fa0915dec",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "250474996461",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "ab9d1d92ca91",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "df3391aa937a",
+          "relevance": 2
+        }
+      ]
+    },
+    {
+      "id": "q008",
+      "query": "如何使用Terraform创建ECS实例",
+      "relevant_chunks": [
+        "8e98dcfbfe42",
+        "35de1da7a6e2",
+        "7e789baf1c78",
+        "3e664470ff32",
+        "9ea3aea7b334",
+        "d53612dac3ec",
+        "01bcebd2a64c",
+        "b7db1fed1e34"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "8e98dcfbfe42",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "35de1da7a6e2",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "7e789baf1c78",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "3e664470ff32",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "9ea3aea7b334",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "d53612dac3ec",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "01bcebd2a64c",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "b7db1fed1e34",
+          "relevance": 2
+        }
+      ]
+    },
+    {
+      "id": "q009",
+      "query": "NAT网关有什么作用",
+      "relevant_chunks": [
+        "97e6d01d33ab",
+        "4ed24471ef65",
+        "3faf483d1643",
+        "0f0d983ecc06",
+        "cf53854ea83d",
+        "62c1d83393a1"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "97e6d01d33ab",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "4ed24471ef65",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "3faf483d1643",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "0f0d983ecc06",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "cf53854ea83d",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "62c1d83393a1",
+          "relevance": 2
+        }
+      ]
+    },
+    {
+      "id": "q010",
+      "query": "如何通过阿里云CLI管理云资源",
+      "relevant_chunks": [
+        "96343ccc8121",
+        "232b3f6d1074",
+        "a2655909e8e5",
+        "9c03ebfa146e",
+        "2160dff01c69",
+        "272dc47340a2",
+        "8577aa0d83d0",
+        "4e807f0018b2"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "96343ccc8121",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "232b3f6d1074",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "a2655909e8e5",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "9c03ebfa146e",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "2160dff01c69",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "272dc47340a2",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "8577aa0d83d0",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "4e807f0018b2",
+          "relevance": 1
+        }
+      ]
+    },
+    {
+      "id": "q011",
+      "query": "什么是云服务器ECS的实例规格族",
+      "relevant_chunks": [
+        "98e2da975746",
+        "b9c4ac8d9ab1",
+        "e104627e45ae",
+        "a1abdd956d39",
+        "3b0dbf82cd97"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "98e2da975746",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "b9c4ac8d9ab1",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "e104627e45ae",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "a1abdd956d39",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "3b0dbf82cd97",
+          "relevance": 1
+        }
+      ]
+    },
+    {
+      "id": "q012",
+      "query": "弹性网卡怎么用",
+      "relevant_chunks": [
+        "74239b1ef7b6",
+        "2386a67a2382",
+        "031f8d14f656",
+        "ee6b6876f803",
+        "87217cd70fc8",
+        "fbf34b001cab"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "74239b1ef7b6",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "2386a67a2382",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "031f8d14f656",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "ee6b6876f803",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "87217cd70fc8",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "fbf34b001cab",
+          "relevance": 1
+        }
+      ]
+    },
+    {
+      "id": "q013",
+      "query": "RAM用户如何授权",
+      "relevant_chunks": [
+        "b06e15d133f3",
+        "68b52100a1d1",
+        "0b5591573fac",
+        "5c66905e7695",
+        "0ca0fabacfac",
+        "917e1f28e08e",
+        "c2d578d41d9c",
+        "597d433003b5"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "b06e15d133f3",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "68b52100a1d1",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "0b5591573fac",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "5c66905e7695",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "0ca0fabacfac",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "917e1f28e08e",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "c2d578d41d9c",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "597d433003b5",
+          "relevance": 2
+        }
+      ]
+    },
+    {
+      "id": "q014",
+      "query": "OSS存储类型有哪些区别",
+      "relevant_chunks": [
+        "32e77c8d227b",
+        "347254c8a1b9"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "32e77c8d227b",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "347254c8a1b9",
+          "relevance": 1
+        }
+      ]
+    },
+    {
+      "id": "q015",
+      "query": "如何在Windows实例上搭建网站",
+      "relevant_chunks": [
+        "a0d661c4b808",
+        "d00b6e2bced0",
+        "229f85038a55",
+        "e6462a758a46",
+        "c19130dda0c4",
+        "08e31d066d1f",
+        "3924ae1ab0f7",
+        "b9ac361fbe66"
+      ],
+      "relevant_chunks_with_scores": [
+        {
+          "chunk_id": "a0d661c4b808",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "d00b6e2bced0",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "229f85038a55",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "e6462a758a46",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "c19130dda0c4",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "08e31d066d1f",
+          "relevance": 1
+        },
+        {
+          "chunk_id": "3924ae1ab0f7",
+          "relevance": 2
+        },
+        {
+          "chunk_id": "b9ac361fbe66",
+          "relevance": 1
+        }
+      ]
+    }
+  ]
+}
