@@ -1,0 +1,602 @@
+[
+  {
+    "query": "如何创建Buck",
+    "positive": "OR_ser-V_4-P0_5-P1_1)[### 基于PAI-EAS挂载OSS部署AIGC服务\n\n  + 创建Bucket\n  + 在PAI-EAS中挂载OSS\n  + 体验AIGC文生图](https://developer.aliyun.com/adc/scenario/519991bfd8e7497b879355e019159923?spm=a2c6h.14164896.0.0.7b8f47c5lsOo6o&scm=20140722.S_community@@%E5%AE%9E%E9%AA%8C@@519991bfd8e7497b8._.ID_519991bfd8e7497b879355e019159923-RL_oss-LOC_search~UND~community~UND~item-OR_ser-V_4-P0_15-P1_0)[### 将OSS挂载为本地文件系统",
+    "negative": [
+      "10 | 90万 | 25万 | 2 | 3 | 6 | 6 | 2万/11万 | 1.5/6 |\n| ecs.re7p.xlarge | 4 | 16 | 63 | 3/10 | 100万 | 25万 | 4 | 4 | 15 | 15 | 4万/11万 | 2/6 |\n| ecs.re7p.2xlarge | 8 | 32 | 126 | 5/10 | 160万 | 25万 | 8 | 4 | 15 | 15 | 5万/11万 | 3/6 |\n| ecs.re7p.16xlarge | 64 | 256 | 1008 | 32/无 | 1200万 | 100万 | 32 | 8 | 30 | 30 | 30万/无 | 16/无 |\n| ecs.re7p.32xlarge | 128 | 512 | 2016 | 64/无 | 2400万 | 200万 | 32 | 15 | 30 | 30 | 60万/无 | 32/无 |\n2400万 | 200万 | 32 | 15 | 30 | 30 | 60万/无 | 32/无 |",
+      "datory parameter. | 缺少必要参数，请您检查必填参数是否都已填后再进行操作。 |\n| 400 | IncorrectVSwitchStatus | VSwitch Creation simultaneously is not supported. | 创建交换机失败，VPC中有交换机的状态为Creating。 |\n| 400 | TaskConflict | The operation is too frequent, TaskConflict. | 操作太频繁，请稍后重试 |\n| 400 | VPC.SWITCH.RULE.QUOTA.NOT.EXISTS | vSwitch quota rule not exists. | - |\n| 400 | Forbidden.VpcNotFound | Specified VPC can not found. | 指定的VPC不存在，请您检查VPC是否正确。 |\n| 400 | RouteConflict.AlreadyExist | Route conflict exists in routing table. | 路由表中存在路由冲突。 |"
+    ]
+  },
+  {
+    "query": "如何设置该参数或",
+    "positive": "h/ecs/user-guide/limitations#SecurityGroupQuota1)。   您需要注意：   * 如果`NetworkInterface.N.InstanceType`取值为`Primary`，则必须设置该参数或`NetworkInterface.N.SecurityGroupId`。此时该参数的作用等同于`SecurityGroupIds.N`，但需要注意不能再设置`SecurityGroupId`、`SecurityGroupIds.N`或`NetworkInterface.N.SecurityGroupId`。 * 如果`NetworkInterface.N.InstanceType`取值为`Secondary`或空值，则该参数为非必填参数。默认值为 ECS 实例所属的安全组。 |  |",
+    "negative": [
+      "zh/ecs/api-describesecuritygroupreferences) 进行查询。\n* 在您使用该接口删除安全组时若返回错误码`InvalidOperation.DeletionProtection`，说明开启了删除保护功能。创建 ACK 集群时，关联的安全组会开启删除保护功能，来防止误删除。删除保护功能无法手动关闭，只有在删除了关联的 ACK 集群后，才能够自动关闭。更多信息，请参见[关闭安全组删除保护](https://help.aliyun.com/zh/ack/ack-managed-and-ack-dedicated/user-guide/configure-security-group-rules-to-enforce-access-control-on-ack-clusters)。\nrules-to-enforce-access-control-on-ack-clusters)。",
+      "\n下表是API对应的授权信息，可以在RAM权限策略语句的`Action`元素中使用，用来给RAM用户或RAM角色授予调用此API的权限。具体说明如下：\n\n* 操作：是指具体的权限点。\n* 访问级别：是指每个操作的访问级别，取值为写入（Write）、读取（Read）或列出（List）。\n* 资源类型：是指操作中支持授权的资源类型。具体说明如下：\n  + 对于必选的资源类型，用前面加 \\* 表示。\n  + 对于不支持资源级授权的操作，用`全部资源`表示。\n* 条件关键字：是指云产品自身定义的条件关键字。\n* 关联操作：是指成功执行操作所需要的其他权限。操作者必须同时具备关联操作的权限，操作才能成功。\n\n| 操作 | 访问级别 | 资源类型 | 条件关键字 | 关联操作 |\n| --- | --- | --- | --- | --- |\n| ecs:DeleteCommand | delete | \\*Command  `acs:ecs:{#regionId}:{#accountId}:command/{#commandId}` | 无 | 无 |\n"
+    ]
+  },
+  {
+    "query": "alicloud_security_group_rule怎么设置",
+    "positive": "\n-> **NOTE:** Available since v1.224.0.\n\nSecurity Group Rule can be imported using the id, e.g.\n\n```\n$ terraform import alicloud_security_group_rule.example <id>\n```",
+    "negative": [
+      "pt-qql-3zb-wdb) | 提供了运行实例所需的信息，包括操作系统、初始化应用数据等。 |\n| [公共镜像](https://help.aliyun.com/zh/ecs/user-guide/public-mirroring-overview/#concept-x4k-22r-wgb) | 阿里云官方提供的基础镜像，均已获得正版授权，涵盖Windows Server系统镜像和主流的Linux系统镜像。 |\n| [Alibaba Cloud Linux](https://help.aliyun.com/zh/alinux/product-overview/alibaba-cloud-linux-overview) | 阿里云官方操作系统，为云上应用程序提供安全、稳定、高性能的定制化运行环境，并进行了针对性的深度优化，更加适合阿里云基础设施。 |",
+      "当您完成ECS实例配置，并**确认下单**后，可以单击**管理控制台**，然后查看实例信息：\n\n* 您可以在实例列表中查看新增的实例。按照本文示例，生成的实例名分别为k8s-node-0006、k8s-node-0007、k8s-node-0008。实例列表显示 3 台实例均已创建成功，状态为**运行中**。\n* 您可以在**实例详情**页面的**其他信息**区域，查看新增实例的主机名，按照本文实例，生成的主机名分别为k8s-node-0006-ecshost、k8s-node-0007-ecshost、k8s-node-0008-ecshost。\nhost、k8s-node-0007-ecshost、k8s-node-0008-ecshost。"
+    ]
+  },
+  {
+    "query": "安装/更新阿里云 CLI怎么安装最新版本",
+    "positive": "ple\\Install-CLI-Windows.ps1`，请将脚本路径替换为实际位置后运行命令。\n\n   * 若未指定版本，脚本将自动安装最新版本。默认安装路径为：`C:\\Users\\<USERNAME>\\AppData\\Local\\AliyunCLI`。\n\n     ```\n     powershell.exe -ExecutionPolicy Bypass -File C:\\Example\\Install-CLI-Windows.ps1\n     ```\n   * 使用 `-Version` 和 `-InstallDir` 选项可指定安装版本和安装目录。访问 [GitHub Releases](https://github.com/aliyun/aliyun-cli/releases) 页面可查看历史可用版本。",
+    "negative": [
+      "html) | ecs.g8y,ecs.c8y,ecs.r8y,ecs.g6r,ecs.c6r |\n| [Red Hat Enterprise Linux 9.2 64位 x86](https://market.aliyun.com/products/57742013/cmjj00063127.html?spm=5176.730005.result.77.44a83524slm7x1&innerSource=search_Red+Hat+Enterprise+Linux+9.2) | ecs.ddh6s,ecs.gn6i,ecs.hfg8i,ecs.g8i,ecs.c8i.ecs.r8i,ecs.g8a,ecs.g8ae,ecs.u1,ecs.c4,ecs.c5,ecs.c6,ecs.c6a,ecs.c6e,ecs.c7,ecs.c7a,ecs.ce4,ecs.cm4,ecs.ebmc5s,ecs.ebmc6,ecs.ebmc6e,ecs.ebmg5,ecs.ebmg5s,ecs.ebmg6,ecs.ebmg6e,ecs.ebmhfc6,ecs.ebmhfg6,ecs.ebmhfr6,ecs.ebmr5s,e",
+      "city-units-1)，则抵扣顺序为：OSS资源包 > 存储容量单位包SCU > 按量付费。\n\n### **抵扣示例**\n\n* 示例一：假设您购买了华北2（北京）地域、规格为10 TB、购买时长1年的OSS资源包，则1年内华北2（北京）地域快照容量在10 TiB之内的部分均会优先通过资源包抵扣，超出部分自动按量付费。\n* 示例二：假设您购买了中国内地通用、规格为10 TB、购买时长1年的OSS资源包，则1年内中国内地地域快照容量在10 TiB之内的部分均会优先通过资源包抵扣，超出部分自动按量付费。\n则1年内中国内地地域快照容量在10 TiB之内的部分均会优先通过资源包抵扣，超出部分自动按量付费。"
+    ]
+  },
+  {
+    "query": "通过Terraform为弹性网卡绑定EIP的**编写配置文件**在哪里设置",
+    "positive": "be the VPC associated with the ECS instance.\"\n}\n\n# 指定VPC的CIDR块，当填入vpc_id时，该值可不填。\nvariable \"vpc_cidr_block\" {\n  default     = \"192.168.0.0/16\"\n  description = \"Specify the CIDR block of the VPC. If the vpc_id is provided, this value can be left blank.\"\n}\n\n# 输入可用区，当为已有ECS实例绑定弹性网卡时，该值必填，且值为ECS实例所在可用区。\nvariable \"zone_id\" {\n  default     = \"\"\n  description = \"When binding an ENI to an existing ECS instance, this value is required and must be the zone where the ECS instance is located.\"\n}",
+    "negative": [
+      "\nRed Hat Enterprise Linux官方的更多信息，请参见：\n\n* [Red Hat Enterprise Linux认证信息](https://catalog.redhat.com/cloud)\n* [Red Hat Enterprise Linux对实例配置的限制](https://access.redhat.com/articles/rhel-limits)\n* [Red Hat Enterprise Linux支持的阿里云ECS实例规格信息](https://access.redhat.com/solutions/3336161)",
+      "zh/ecs/user-guide/quota-management#c3adabff96ubw)。 | [查看或提升云服务器 ECS 规格配额](https://help.aliyun.com/zh/ecs/user-guide/quota-management#c3adabff96ubw) |\n| q\\_ecs\\_restrict\\_postpay\\_c | 按量付费的限购类实例vCPU数量上限 | * [共享标准型实例规格族s6](https://help.aliyun.com/zh/ecs/user-guide/shared-instance-families#section-wi7-mgt-163) * [上一代共享型实例规格族xn4、n4、mn4、e4](https://help.aliyun.com/zh/ecs/user-guide/shared-instance-families#section-9zj-1ov-92r) * [已停售的实例规格](https://help.aliyun.com/zh/ecs/user-guide/retired-instance-types#re4e) |"
+    ]
+  },
+  {
+    "query": "CLI参考的CLI调用示例在哪里设置",
+    "positive": "| InstanceName | 实例名称。  示例：*ecs\\_cli\\_demo* |\n      | InstanceChargeType | 付费方式：实例按照包年包月的付费方式*PrePaid*。  **说明**  您需要确保账号余额能够完成支付。 |\n      | PeriodUnit | 付费周期单位：*Month* |\n      | Period | 付费时长：*1* |\n      | InternetMaxBandwidthOut | 公网IP带宽：*1* |\n      | Password | 实例登录密码：*<yourPassword>*  **说明**  您需要自定义复杂密码以保护ECS实例的安全。 |\n      | SystemDisk.Category | 系统盘类型：cloud\\_essd |\n      | SystemDisk.Size | 系统盘大小：40 |\n   2. 请求示例",
+    "negative": [
+      "help.aliyun.com/zh/ecs/user-guide/nvme-protocol)。\n  + 支持的云盘类型：[弹性临时盘](https://help.aliyun.com/zh/ecs/user-guide/elastic-ephemeral-disks)、[ESSD云盘](https://help.aliyun.com/zh/ecs/user-guide/essds)、[ESSD AutoPL云盘](https://help.aliyun.com/zh/ecs/user-guide/essd-autopl-disks)和[ESSD同城冗余云盘](https://help.aliyun.com/zh/ecs/user-guide/regional-essd-disks/)。更多云盘信息，请参见[块存储概述](https://help.aliyun.com/zh/ecs/user-guide/elastic-block-storage-devices)。",
+      "\n镜像目录支持对全量镜像按镜像归属和使用频率等因素进行分类、智能化搜索、更细颗粒度的筛选和过滤等功能，相较于镜像页面提供更丰富的分类和筛选，适合在不确定具体镜像时进行探索和比较。\n\n> 镜像目录会将符合ECS镜像标准化规范的镜像标识为[标准镜像](#fc749d1b2ay8d)。\n\n#### **操作步骤**\n\n1. 访问[ECS控制台-镜像目录](https://ecs.console.aliyun.com/imageCatalog/region/cn-hangzhou)。在页面左侧顶部，选择目标资源资源组和地域。\n2. 在**镜像目录**页面，根据业务需要选择镜像目录的分类并查找目标镜像。可在镜像目录页面的筛选条件区域，勾选过滤条件，匹配出符合条件的镜像。\n\n   > 快速启动镜像是阿里云官方筛选后推荐给用户的常用镜像，来源于公共镜像和市场镜像；私有镜像是归属当前用户的镜像，包含个人制作的自定义镜像和他人共享的镜像。\n3. 搜索或筛选完成后，可以单击右侧查看其他类型筛选结果，查看除当前分类展示的符合条件的镜像外，其他分类搜索到的镜像。\n"
+    ]
+  },
+  {
+    "query": "怎样配置Acce",
+    "positive": "D=yourAccessKeyID\n  ```\n* 配置AccessKey Secret并回车。\n\n  ```\n  # 将<ACCESS_KEY_SECRET>替换为您自己的AccessKey Secret。\n  export ALIBABA_CLOUD_ACCESS_KEY_SECRET=yourAccessKeySecret\n  ```\n* 验证是否配置成功。\n\n  执行`echo $ALIBABA_CLOUD_ACCESS_KEY_ID`命令，如果返回正确的AccessKey ID，则说明配置成功。\nOUD_ACCESS_KEY_ID`命令，如果返回正确的AccessKey ID，则说明配置成功。",
+    "negative": [
+      "/configure-erdma-on-a-cpu-instance#task-2128004)。\n  + 支持巨型帧（Jumbo frames）。更多信息，请参见[巨型帧（Jumbo Frames）](https://help.aliyun.com/zh/ecs/user-guide/jumbo-frame/#section-vtb-klu-z5y)。\n\nebmr8y包括的实例规格及指标数据如下表所示。\n\n|  |  |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| **实例规格** | **vCPU** | **内存（GiB）** | **网络带宽基础/突发（Gbit/s）** | **网络收发包PPS** | **连接数** | **多队列** | **弹性网卡** | **单网卡私有IPv4地址数** | **单网卡IPv6地址数** | **云盘IOPS基础/突发** | **云盘带宽基础/突发（Gbit/s）** |",
+      "限设置，错误的权限会导致 SSH 登录失败。\n\n         运行以下命令，设置正确的权限。\n\n         ```\n         sudo chown -R <username>:<username> /home/<username>/.ssh\n         sudo chmod 700 /home/<username>/.ssh\n         sudo chmod 600 /home/<username>/.ssh/authorized_keys\n         ```\n   3. **开启SSH服务的公钥认证功能。**\n\n      配置公钥后，必须在服务器上启用 SSH 公钥认证。否则，密钥登录会失败。\n\n      1. 备份SSH配置文件`/etc/ssh/sshd_config`。"
+    ]
+  },
+  {
+    "query": "快照容量计算原理的操作步骤",
+    "positive": "/user-guide/reduce-snapshot-fees#d32d2de867o8i)。\n\n### 快照容量与云盘容量的关系\n\n云盘的单个快照容量不会超过云盘容量，但是随着快照的增加，云盘容量可能会小于所有快照的总容量。\n\n假设您创建了一个40 GiB的云盘，第一次写入了30 GB的数据，那么此时创建的快照容量是30 GB。之后采用覆盖写方式，写入30 GB数据后再次创建快照，此时云盘容量仍然是40 GiB，但此时因变化的数据量为30 GB，所以该盘的快照总容量为60 GB，大于云盘容量。\n\n您可以通过快照链查看单块云盘的容量以及快照容量。具体操作，请参见[根据快照链查看单块云盘的快照容量](https://help.aliyun.com/zh/ecs/user-guide/view-the-snapshot-size#section-cx4-3rl-xdb)。\n\n例如，**源云盘容量**为 40 GiB，而该云盘的**快照容量**仅为 3.57 GB。\n\n### 快照容量与系统容量的差异",
+    "negative": [
+      "当您决定购买节省计划时，首先需要结合业务实际情况进行合理的购前评估测算。您可以参见[购买节省计划](https://help.aliyun.com/zh/ecs/purchase-savings-plan)，按照阿里云为您测算的推荐方案进行购买，或者在手动测算评估后前往下单页面进行购买。在进行手动测算购买方案时，需要根据您的业务的预算、交付方式、资源使用时长等因素，查询对应条件下的节省计划折扣，确定开通节省计划的类型、规格、每小时承诺消费金额以及时间等订单信息后，前往[节省计划购买页面](https://common-buy.aliyun.com/?spm=a2c4g.11186623.0.0.638335e6sjWHzg&commodityCode=savingplan_common_public_cn#/buy)配置下单。\n\n**说明**",
+      "Spark、视频流x264/265应用场景也在存量ECS实例的详情页提供了安装指定扩展程序的功能）\n* **GPU类型实例**：购买部分Ubuntu 22.04/24.04操作系统的GPU类型实例时，如果勾选AI增强应用性能加速扩展程序，系统会安装AI增强组件，并同步安装[KeenTune](https://openanolis.cn/sig/KeenTune)工具对应用进行性能调优，在某些AI框架（例如bevformer，openclip等）的训练场景能带来15%左右性能提升。\n\n  > 在GPU场景提供的调优涉及到init\\_on\\_alloc=0相关的配置，可能会给多租产品客户带来一定的安全风险。\n的调优涉及到init\\_on\\_alloc=0相关的配置，可能会给多租产品客户带来一定的安全风险。"
+    ]
+  },
+  {
+    "query": "**附录**的操作步骤",
+    "positive": "ystem-of-an-instance)。\n  + 检查相关快照归属的云盘是否有正在创建快照。\n\n    为保障数据一致性，如果快照归属云盘有正在进行的快照任务，将不允许进行回滚操作。您可以在**实例详情**页的**快照**页签中，查看是否存在**进度**不是**100%**，**状态**处于**未完成**的快照任务。\n\n    如果您需要强制终止相关快照任务以便尽快进行云盘回滚操作，可以勾选相应快照，并单击**删除快照**终止快照任务。\n\n#### **ECS实例释放后，如何通过快照快速恢复数据？**\n\nECS实例释放后，您可以通过以下方法快速恢复数据：",
+    "negative": [
+      "快照策略。如果目标自动快照策略已经被应用到磁盘上，删除自动快照策略后，这些磁盘不再执行该策略。 |\n| [DescribeSnapshotPackage](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-describesnapshotpackage) | 查询某地域下已购买对象存储OSS存储包 | 调用DescribeSnapshotPackage查询您在一个阿里云地域下已经购买的OSS存储包。存储包可以用于抵扣标准快照存储容量，但不支持抵扣本地快照。 |\n| [LockSnapshot](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-locksnapshot) | 锁定快照 | 以合规模式锁定快照，以防止快照被意外或者恶意删除。快照锁定期间，任何用户都无法将其删除。 |",
+      "持有抢占式实例机会越大，当出价低于市场价或库存不足时，实例被中断回收。\n\n**实例使用时长：**\n\n* **设定使用实例1小时：**阿里云保障您的实例在创建后1小时之内不被中断回收，即创建实例后1小时内不受检测机制影响。\n* **无确定使用时长：**没有使用时长保障，实例创建后会受检测机制影响，这意味着您的实例可能随时会被中断回收。\n使用时长：**没有使用时长保障，实例创建后会受检测机制影响，这意味着您的实例可能随时会被中断回收。"
+    ]
+  },
+  {
+    "query": "创建快照一致性组的操作步骤在哪里设置",
+    "positive": "1. 访问[ECS控制台-快照一致性组](https://ecs.console.aliyun.com/instanceSnapshot/region)。\n2. 在页面左侧顶部，选择目标资源所在的资源组和地域。\n3. 在**快照一致性组**页签中单击**创建快照一致性组**。\n4. 在**创建快照**对话框中，设置快照一致性组参数。\n\n   |  |  |  |\n   | --- | --- | --- |\n   | **参数** | | **说明** |\n   | **资源类型** | | 默认选中**实例**，从实例中选择一块或多块云盘，创建快照一致性组并在组内为多块云盘创建快照，从而确保多块云盘数据的一致性。  **说明**  **资源类型**也可以选择**云盘**，选择为单个云盘创建快照。具体操作，请参见[手动创建单个快照](https://help.aliyun.com/zh/ecs/user-guide/create-a-snapshot)。 |\n   | **选择实例** | | 选择需要创建快照一致性组的一台或多台ECS实例。 |",
+    "negative": [
+      "-and-operating-systems#6cc7ed4977cxh)。\n* **存储**：\n\n  + 支持调整存储基础带宽。\n  + I/O优化实例。\n  + 支持NVMe协议。详情参见[NVMe协议概述](https://help.aliyun.com/zh/ecs/user-guide/nvme-protocol)。\n  + 支持的云盘类型：[弹性临时盘](https://help.aliyun.com/zh/ecs/user-guide/elastic-ephemeral-disks)、[ESSD云盘](https://help.aliyun.com/zh/ecs/user-guide/essds)、[ESSD AutoPL云盘](https://help.aliyun.com/zh/ecs/user-guide/essd-autopl-disks)和[ESSD同城冗余云盘](https://help.aliyun.com/zh/ecs/user-guide/regional-essd-disks/)。",
+      "* **规格族介绍**：采用阿里云全新 CIPU 架构，搭配 AMD 最新EPYC™ Turin 处理器，可提供稳定的算力输出、更强劲的 I/O 引擎以及芯片级的安全加固。\n* **适用场景**：\n\n  + 需要直接访问物理资源，或者需要License绑定硬件等要求的工作负载。\n  + 兼容第三方Hypervisor，满足混合云和多云部署诉求。\n  + 容器（包括但不限于Docker、Clear Container、Pouch等）。\n  + 高网络包收发场景，例如视频弹幕、电信业务转发等。\n  + Web前端服务器。\n  + 大型多人在线游戏（MMO）前端。\n  + 数据分析、批量计算、视频编码。\n  + 高性能科学和工程应用。\n* **计算**：\n\n  + 处理器与内存配比为1:2。\n  + 处理器：AMD EPYC™ Turin处理器，睿频最高3.7 GHz，采用物理核设计，计算性能稳定。\n* **存储**："
+    ]
+  },
+  {
+    "query": "如何创建测试网页",
+    "positive": "配置安全组并**验证\n\n通过创建测试网页，验证环境是否配置成功。\n\n1. **配置安全组规则**\n\n   为使网站能被公网访问，需在实例的安全组中放行Web服务端口。\n\n   1. 前往[ECS控制台-实例](https://ecs.console.aliyun.com/server/region)单击目标实例ID，进入实例详情页。\n   2. 在实例详情页，单击**安全组**页签，然后单击目标安全组ID进入其详情页。\n   3. 在入方向规则列表中，单击**添加规则**，配置以下参数后保存。\n\n      * **授权策略**：**允许**\n      * **协议**：**自定义 TCP**\n      * **访问来源**：`0.0.0.0/0`\n      * **访问目的(本实例)**：`80/80`\n2. **创建测试页面**\n\n   在网站的根目录下（例如 `C:\\myphp`），创建一个名为`index.php`的文件，并填入以下内容：\n\n   ```\n   <?php\n       phpinfo();\n   ?>\n   ```\n3. **访问测试页面**",
+    "negative": [
+      ") | 手动禁用指定的激活码 | 调用DisableActivation手动禁用指定的激活码。 |\n| [DeleteActivation](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-deleteactivation) | 删除一个未被使用的激活码 | 调用DeleteActivation删除一个未被使用的激活码。 |\n| [DescribeManagedInstances](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-describemanagedinstances) | 获取托管实例 | 调用DescribeManagedInstances查询托管实例列表。 |",
+      "ring-in-anti-ddos-origin-basic#concept-40033-zh)。\n* 启用DDoS基础防护后，云安全中心会实时监控进入ECS实例的流量。当监测到超大流量或者包括DDoS攻击在内的异常流量时，在不影响正常业务的前提下，云安全中心会将可疑流量从原始网络路径中重定向到净化产品上，识别并剥离恶意流量，并将还原的合法流量回注到原始网络中转发给目标ECS实例。更多信息，请参见[DDoS原生防护](https://help.aliyun.com/zh/anti-ddos/anti-ddos-origin/product-overview/what-is-anti-ddos-origin#concept-63643-zh)。\n* 当ECS实例遭受DDoS攻击时，您可以根据推送的事件及时进行处理。更多信息，请参见[DDoS安全攻击事件](https://help.aliyun.com/zh/ecs/user-guide/summary#section-mf1-ynr-udu)。\n\n### **使用限制**"
+    ]
+  },
+  {
+    "query": "**锁定快照**的操作步骤",
+    "positive": "1. 访问[ECS控制台-快照](https://ecs.console.aliyun.com/snapshot)，在页面左侧顶部，选择目标资源所在的资源组和地域。\n2. 在**云盘快照**页签中找到目标快照，在**操作**列中选择>**锁定快照**。\n3. 在**锁定快照**对话框中，设置参数，勾选并确认锁定影响后单击**确认**。\n\n   |  |  |\n   | --- | --- |\n   | **参数** | **说明** |\n   | **锁定时长** | 支持自定义，取值范围为1 ～ 36,500天，包含冷静时长。冷静期后锁定正式生效，任何用户无法删除该快照。 |\n   | **冷静期** | 支持自定义，取值范围为0～72小时，冷静期内特定权限用户可解锁、删除该快照或缩短锁定时长。  **重要**  若设置为0，快照立即永久锁定，任何用户无法删除或解锁该快照，直至锁定到期。 |\n4. （条件）若锁定时长大于3年，还需阅读并确认弹框中的锁定须知。\n5. 返回**云盘快照**页签，在目标快照的**特性**列，查看当前锁定状态。",
+    "negative": [
+      "证和性能优化的操作系统，包括Alibaba Cloud Linux 3/4。\n* **存储**：\n\n  + I/O优化实例。\n  + 支持NVMe协议。详情参见[NVMe协议概述](https://help.aliyun.com/zh/ecs/user-guide/nvme-protocol)。\n  + 支持的云盘类型：[ESSD云盘](https://help.aliyun.com/zh/ecs/user-guide/essds)、[ESSD AutoPL云盘](https://help.aliyun.com/zh/ecs/user-guide/essd-autopl-disks)和[ESSD同城冗余云盘](https://help.aliyun.com/zh/ecs/user-guide/regional-essd-disks/)。更多云盘信息，请参见[块存储概述](https://help.aliyun.com/zh/ecs/user-guide/elastic-block-storage-devices)。\n* **网络**：",
+      "onDenied.InvalidNetworkType | %s | 该网络类型不支持此操作。 |\n| 403 | InvalidSpotInterruptionBehavior.ClassicNetworkNotSupport | The specified SpotInterruptionBehavior does not support Classic network Instance. | 该操作不支持经典网络类型的实例。 |\n| 403 | InvalidSpotInterruptionBehavior.LocalDiskNotSupport | The specified SpotInterruptionBehavior does not support local disk instance. | 该操作不支持有本地磁盘的实例。 |\n| 403 | OperationDenied.ImageNotValid | %s | 当前镜像不支持此操作。 |"
+    ]
+  },
+  {
+    "query": "安装并使用Docker和Docker Compose的通过 Docker CE 软件源安装在哪里设置",
+    "positive": ".aliyuncs.com|g' /etc/yum.repos.d/docker-ce.repo\n\n   #用户需要自行选择安装 centos 的哪个版本，比如：centos9 还是 centos10，再决定将 releasesever 替换成哪个版本\n   # 如果更换 centos 9，则执行：\n   sudo sed -i 's|$releasever|9|' /etc/yum.repos.d/docker-ce.repo\n   # 如果更换 centos10, 则执行：\n   sudo sed -i 's|$releasever|10|' /etc/yum.repos.d/docker-ce.repo\n\n   #安装Docker社区版本，容器运行时containerd.io，以及Docker构建和Compose插件\n   sudo dnf -y install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin\n   ```\n\n   **说明**",
+    "negative": [
+      "在实例切换等运维操作中，数据库代理的连接保持功能可以有效防止实例闪断，提升产品可用性，降低运维成本。您无需购买任何资源，即可在线体验基于连接保持功能的实例无感切换，实时观察实例性能变化与功能效果。\n\n关于RDS数据库代理的使用问题和更多相关信息，欢迎加入用户钉钉群（106730000316）进行咨询、反馈和交流 。\n",
+      "ESS_KEY_ID and ALIBABA_CLOUD_ACCESS_KEY_SECRET\")\n\ndef get_ecs_client(region_id):\n    config = open_api_models.Config(\n        access_key_id=ACCESS_KEY_ID,\n        access_key_secret=ACCESS_KEY_SECRET,\n        region_id=region_id\n    )\n    return Ecs20140526Client(config)\n\ndef execute_command(client, command_content, region_id, instance_ids, command_timeout, command_type):\n    if not instance_ids:\n        raise ValueError(\"Instance IDs list cannot be empty.\")"
+    ]
+  },
+  {
+    "query": "安装并使用Docker和Docker Compose怎么安装Dock",
+    "positive": "udo gpg --dearmor -o /etc/apt/keyrings/docker.gpg\n   sudo chmod a+r /etc/apt/keyrings/docker.gpg\n   ARCH=$(dpkg --print-architecture)\n   DISTRO=$(. /etc/os-release && echo \"$VERSION_CODENAME\")\n   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null <<EOF\n   deb [arch=${ARCH} signed-by=/etc/apt/keyrings/docker.gpg] http://mirrors.cloud.aliyuncs.com/docker-ce/linux/ubuntu ${DISTRO} stable\n   EOF\n   sudo apt-get update\n   #安装Docker社区版本，容器运行时containerd.io，以及Docker构建和Compose插件",
+    "negative": [
+      "ssors) * Red Hat Enterprise Linux:[AMD EPYC™ 9005 Series](https://catalog.redhat.com/hardware/detail/259837) | 在9代AMD规格族（例如g9a）上启动Ubuntu 16/Debian 9时，系统会panic，需要参考[补丁文档](https://lore.kernel.org/stable/20210329075605.759394499@linuxfoundation.org/)安装补丁后可正常启动，但后期稳定性也无法得到保障。 |",
+      "e/alibaba-cloud-linux)。\n\n* Alibaba Cloud Linux 3\n\n  |  |  |\n  | --- | --- |\n  | **操作系统版本** | **镜像族系** |\n  | Alibaba Cloud Linux 3.2104 LTS 64位 | acs:alibaba\\_cloud\\_linux\\_3\\_2104\\_lts\\_x64 |\n  | Alibaba Cloud Linux 3.2104 64位 | 无 |\n  | Alibaba Cloud Linux 3.2104 64位 快速启动版 | 无 |\n  | Alibaba Cloud Linux 3.2104 LTS 64位 等保2.0三级版 | acs:alibaba\\_cloud\\_linux\\_3\\_2104\\_lts\\_x64\\_dengbao2.0 |\n  | Alibaba Cloud Linux 3.2104 64位 SCC版 | 无 |\n  | Alibaba Cloud Linux 3.2104 64位 ARM版 | 无 |"
+    ]
+  },
+  {
+    "query": "**弹性网卡的网络增强特性**的操作步骤",
+    "positive": "### **弹性RDMA能力**\n\n弹性网卡支持增加弹性RDMA接口，即开启支持弹性RDMA的能力，开启后即为弹性RDMA网卡。通过在支持弹性RDMA的实例规格上，挂载开启了弹性RDMA能力的弹性网卡，安装弹性RDMA驱动，能够在ECS实例上实现低延迟和高吞吐量的网络通信。详细信息，请参见[弹性RDMA网卡（ERI）](https://help.aliyun.com/zh/ecs/user-guide/elastic-rdma-network-interface-card-eri)。\n\n### 网卡多队列\n\n网卡多队列是指在网络接口上配置多个发送和接收队列，每个队列可以由不同的CPU核心进行处理，其主要目的是通过允许多个CPU核心同时处理网络数据包来提升网络I/O吞吐量和降低延迟。\n\n详细信息，请参见[网卡多队列](https://help.aliyun.com/zh/ecs/user-guide/nic-multi-queue)。\n\n### 物理网卡映射",
+    "negative": [
+      "s-network-interface-attachment)：用于提供ECS网络接口附加资源。\n\n[alicloud\\_ram\\_role\\_attachment](https://help.aliyun.com/zh/terraform/alicloud-ram-role-attachment)：用于为多个ECS实例绑定RAM角色。\n\n[alicloud\\_reserved\\_instance](https://help.aliyun.com/zh/terraform/alicloud-reserved-instance)：用于提供预留实例券资源。\n\n[alicloud\\_security\\_group](https://help.aliyun.com/zh/terraform/alicloud-security-group)： 用于提供ECS安全组资源。\n\n[alicloud\\_security\\_group\\_rule](https://help.aliyun.com/zh/terraform/alicloud-security-group-rule)：用于提供安全组规则资源。",
+      "使用ECS的构建部署功能，可以直接从Git仓库自动拉取最新代码，并在单台ECS上完成应用的本地构建和自动化部署，为您提供了便捷、高效且低成本的解决方案，本文为您介绍如何快速将业务代码部署到单台ECS上。\n\n**说明** \n\n本文适用于在单台ECS上构建部署应用的场景，并且该应用需要频繁更新和部署。如果您需要在多台ECS实例上部署应用，请参见[构建部署示例模板](https://help.aliyun.com/zh/oos/getting-started/ci-cd-sample-template/)。\n"
+    ]
+  },
+  {
+    "query": "RunInstances怎么设置",
+    "positive": "h native snapshot encrypt. | 该磁盘类型不支持快照原生加密方式创盘 |\n| 400 | NotSupport.SnapshotEncryptedAlgorithmConflict | Changing encrypt algorithm with encrypted snapshot is not supported. | - |\n| 400 | NoPermission.SystemTag | The operator is not permission for the system tag. | 无权限操作该系统TAG |\n| 400 | NumberExceed.Tags | The Tags parameter's number is exceed , Valid : 20. | 指定的标签数量超过限制。 |",
+    "negative": [
+      "ot valid or vlan has not enough IP address. | - |\n| 400 | OperationDenied.QuotaExceed | The quota of tags on resource is beyond permitted range. | 资源标签已达上限。 |\n| 400 | Account.Arrearage | Your account has been in arrears. | 账户余额不足，请先充值再操作。 |\n| 400 | InvalidUserData.SizeExceeded | The specified parameter \"UserData\" exceeds the size. | - |\n| 400 | InvalidUserData.NotSupported | TThe specified parameter \"UserData\" only support the vpc and IoOptimized Instance. | - |",
+      ") | 收回实例被授予的RAM角色 | 本接口用于收回一台或多台ECS实例被授予的RAM角色。 |\n| [DescribeInstanceVncUrl](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-describeinstancevncurl) | 查询实例VNC登录地址 | 本接口用于查询一台ECS实例的VNC登录地址。 |\n| [ModifyInstanceVncPasswd](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-modifyinstancevncpasswd) | 修改实例VNC登录密码 | 本接口用于修改一台ECS实例的VNC登录密码。 |"
+    ]
+  },
+  {
+    "query": "使用预签名URL下载或预览文件怎么创建OSS客",
+    "positive": "options[\"endpoint\"]); // 如果提供了访问域名，则设置endpoint\n}\n\n// 创建OSS客户端实例\n$client = new Oss\\Client($cfg);\n\n$versionId = \"yourVersionId\"; // 版本号，此处仅为示例值，实际使用时请替换为真实的版本ID\n\n// 创建GetObjectRequest对象，用于下载对象\n$request = new Oss\\Models\\GetObjectRequest(bucket:$bucket, key:$key, versionId: $versionId);\n\n// 调用presign方法生成预签名URL\n$result = $client->presign($request);",
+    "negative": [
+      "地址数** | **云盘IOPS基础/突发** | **云盘带宽基础/突发（Gbit/s）** |\n| ecs.ebmc8i.48xlarge | 192 | 512 | 100/无 | 3000万 | 400万 | 64（主网卡）/16（辅助网卡） | 72 | 30 | 30 | 100万/无 | 48/无 |\n64（主网卡）/16（辅助网卡） | 72 | 30 | 30 | 100万/无 | 48/无 |",
+      "\n* 安全隔离：基于隧道技术保证不同VPC之间安全隔离。\n* 稳定可靠：支持网络多路径检测和切换，支持网络故障快速切换自愈，保障业务稳定。\n* 灵活易用：按需配置网络，可自定义IP地址范围与路由表安全策略。\n* 互联互通：混合云架构下轻松管理云上云下和公网出入口，满足业务不同的组网和通信需求。\n"
+    ]
+  },
+  {
+    "query": "RunInstances的错误码在哪里设置",
+    "positive": "f non-encrypted disks. | 启用云盘账号默认加密后，无法创建非加密磁盘。 |\n| 403 | InvalidOperation.InstanceTypeNotSupportNetworkEncryption | The specified instance type does not support network encryption. | 指定的实例规格不支持vpc流量加密 |\n| 403 | InvalidOperation.UserNotSupportNetworkEncryption | User not support network encryption. | 用户不支持指定网络流量加密参数。 |\n| 403 | InvalidOperation.InstanceTypeNotSupportEniTrunking | The current instance type does not support ENI trunking operation. | 当前的实例规格不支持弹性网卡的中继操作。 |",
+    "negative": [
+      "权系统在有货时自动帮您支付并创建实例，以获得资源短期内的确定性保障。 |\n\n### 资源预定服务\n\n资源预定服务用于保障资源供应确定性，从使用场景看分类如下：\n\n* 弹性保障：适用于使用时间不定、使用时长不定的峰谷弹性需求。弹性保障仅支持保障交付按量付费实例，生效时间支持立即生效和指定时间生效。更多信息，请参见[弹性保障](https://help.aliyun.com/zh/ecs/user-guide/overview-of-elasticity-assurance#concept-1999478)。\n* 容量预定：适用于资源使用量稳定且较高的弹性需求。容量预定细分为更多的子类型，支持保障交付按量付费实例和包年包月实例，且生效时间支持立即生效和指定时间生效。",
+      "*操作**列单击**监控**。\n5. 在左侧导航栏单击**AutoPL Burst IO**页签。\n6. 在**AutoPL Burst IO**页面，查看ESSD AutoPL云盘的突发详情，包括Burst时间、Burst数量等。\n\n   **说明** \n\n   Burst事件查询、Burst详细查询的延迟时间小于1小时，即最新数据为1小时之前的数据。\nBurst事件查询、Burst详细查询的延迟时间小于1小时，即最新数据为1小时之前的数据。"
+    ]
+  },
+  {
+    "query": "抢占式实例节点池最佳实践怎么设置",
+    "positive": "c          0.0160             1.0             0.0\n      ecs.g6.3xlarge     cn-zhangjiakou-a          0.0175             1.0             0.0\n      ecs.g6.3xlarge     cn-zhangjiakou-c          0.0175             1.0             0.0\n        ecs.g6.large     cn-zhangjiakou-a          0.0175             1.0             0.0\n       ecs.g6.xlarge     cn-zhangjiakou-a          0.0175             1.0             0.0\n      ecs.g6.2xlarge     cn-zhangjiakou-a          0.0175             1.0             1.0",
+    "negative": [
+      "ds，主频不低于2.7 GHz，全核睿频3.2 GHz，计算性能稳定。\n\n    **说明** \n\n    购买该实例时，系统将随机分配上述两种处理器之一，不支持手动选择。\n  + 支持超线程配置。默认开启超线程配置，详情请参见[更改CPU选项](https://help.aliyun.com/zh/ecs/user-guide/specify-and-view-cpu-options#concept-2352963)。\n  + 与操作系统的兼容性说明，请参见[Intel实例规格与操作系统兼容性说明](https://help.aliyun.com/zh/ecs/intel-instance-specifications-and-operating-system-compatibility)。\n* **存储**：",
+      "/ecs/user-guide/quota-management#c3adabff96ubw) |\n| q\\_ecs\\_vgpu\\_prepay\\_g | 包年包月的GPU虚拟化类（vGPU）实例数量上限 | * [GPU虚拟化型实例规格族sgn8ia](https://help.aliyun.com/zh/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1#sgn8ia) * [GPU虚拟化型实例规格族sgn7i-vws（共享CPU）](https://help.aliyun.com/zh/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1#section-7ae-lxh-zw5) *"
+    ]
+  },
+  {
+    "query": "如何创建快照，并",
+    "positive": "\n您可以使用自动快照策略定期为云盘创建快照，并保留一定时长，实现云盘数据的日常备份，以应对因误删、病毒等造成的数据丢失或者系统故障，确保快速找回云盘数据以保证业务的连续性。\n",
+    "negative": [
+      "\n1. 进入控制面板 -> 系统 -> 系统设置 -> 环境变量。\n2. 在系统变量中向下滚动，直到找到 PATH。\n3. 单击编辑并进行相应更改。\n4. 请务必在前一个末尾添加分号，如：c:\\path;c:\\path2\n5. 启动新控制台以使设置生效。\n\n更多信息参见：[在Windows系统定义全局路径](https://stackoverflow.com/questions/1618280/where-can-i-set-path-to-make-exe-on-windows)。\n",
+      "群：\n\n   * 直接使用`/opt/keentune/spark.conf`来重启Spark。\n\n     ```\n     # 任务提交方式一：\n     spark-submit --properties-file=/opt/keentune/spark.conf \n     # 任务提交方式二：\n     spark-sql --properties-file=/opt/keentune/spark.conf\n     ```\n   * 参考优化后的配置修改您自己的spark.conf后重启Spark。\n\n     ```\n     # 任务提交方式一：\n     spark-submit --properties-file=${your_spark.conf}\n     # 任务提交方式二：\n     spark-sql --properties-file=${your_spark.conf}\n     ```\nsql --properties-file=${your_spark.conf}\n     ```"
+    ]
+  },
+  {
+    "query": "安全组应用指导和案例怎么创建和管理S",
+    "positive": "(https://www.aliyun.com/product/slb)分发流量，避免单点故障。\n\n  ECS实例仅需出方向访问公网时，建议使用NAT网关配置SNAT规则，避免分配公网IP或EIP后暴露服务。具体配置，请参见[创建和管理SNAT条目](https://help.aliyun.com/zh/nat-gateway/create-a-snat-entry#task-491135)。\n* **以白名单的方式使用安全组**\n\n  安全组建议按白名单方式使用：默认拒绝访问，仅添加允许规则放通必要端口和授权对象。排查线上问题时，不建议临时分配公网IP或挂载EIP，以免扩大暴露面。\n\n### **2、配置安全组规则**\n\n配置安全组规则时，仅开放业务必需的端口，并尽量限制源IP地址范围。\n\n> 在VPC网络中，一条安全组规则可同时控制公网和内网访问。\n\n* **普通安全组和企业级安全组默认策略有差异**\n\n  普通安全组和企业级安全组默认拒绝所有入方向访问。普通安全组默认允许所有出方向访问；企业级安全组默认拒绝所有出方向访问。\n* **不同安全组及不同类型安全组的内网互通性有差异**",
+    "negative": [
+      "\n[使用Workbench登录实例](https://help.aliyun.com/zh/ecs/user-guide/connect-to-a-linux-instance-by-using-a-password-or-key)，按以下步骤创建用户：\n\n1. #### **创建用户**\n\n   > 命令中<username>需替换为要创建用户的用户名。例如创建名为`exampleuser`的用户时，可执行`sudo useradd -m exampleuser`。\n\n   ```\n   sudo useradd -m <username>\n   ```\n2. #### **设置密码/密钥对**\n",
+      "/DDoS木马、主流漏洞扫描等。 | 包含企业版所有能力，如病毒查杀、高级威胁检测、漏洞修复等 |\n  | 获取限制 | 自动开通，无需申请。 | 每个账号仅有一次申请机会，不可重复获取。 |\n* **如何获取免费的云安全中心服务？**\n\n  + 免费版：完成阿里云账号实名认证后自动开通。更多信息，请参见[云安全中心免费版简介](https://help.aliyun.com/zh/security-center/product-overview/introduction-to-security-center-basic)。\n  + 企业版免费试用：[开通 7 天免费试用](https://help.aliyun.com/zh/security-center/user-guide/apply-for-a-7-day-free-trial-of-security-center#task-1940261)。\n\n### **核心功能与应用场景**\n\n* **云安全中心是否符合国际安全标准？**"
+    ]
+  },
+  {
+    "query": "怎样删除文件会减",
+    "positive": "\n* [如何查看快照容量？](https://help.aliyun.com/zh/ecs/user-guide/view-the-snapshot-size)\n* [快照容量与云盘容量有什么关系？](https://help.aliyun.com/zh/ecs/user-guide/how-do-snapshots-work#0b249e9206twl)\n* [在ECS实例内删除文件会减少空间占用吗？](#title-qas-xeu-ja7)\n* [为什么快照容量大于文件系统内看到的数据量？](#title-96q-3j1-6zm)\n",
+    "negative": [
+      "全调用的形式与运行在主VM上的应用进行交互。\n\n阿里云虚拟化Enclave的工作原理图如下所示。\n\n阿里云虚拟化Enclave提供的安全性由多个方面结合实现。底层基于带有TPM/TCM芯片的第三代神龙架构，且为EVM提供vTPM/vTCM设备来增强其安全性和可信能力；上层提供高兼容性的SDK，方便您快速搭建Enclave环境并使用。在可信证明能力方面，您可以对运行在机密执行环境中的代码进行验证，例如借助SDK，机密应用可在运行时生成证明材料（包括平台、应用信息、签名等），再通过远程证明服务端（可结合KMS）验证证明材料的有效性。当主VM切分资源给EVM，并且EVM开始运行时，底层会执行资源访问隔离，确保主VM无法访问这些已经切分出去的vCPU或内存资源，保障EVM的正常运行和私密性。\n\n阿里云虚拟化Enclave功能的架构图如下所示。\nPU或内存资源，保障EVM的正常运行和私密性。\n\n阿里云虚拟化Enclave功能的架构图如下所示。",
+      "关于安全组的使用，为您提供以下最佳实践建议：\n\n* **规划**\n\n  您可以为安全组设置名称、描述，也可以设置安全组的标签、资源组，便于进行分类运维。建议您合理设置这些信息，方便快速识别安全组的用途，在管理较多安全组时更加清晰。\n* **以白名单的方式使用安全组**\n\n  即默认拒绝所有访问，添加允许规则来放通指定的端口范围和授权对象。\n* **添加安全组规则时遵循最小授权原则**\n\n  例如，开放Linux实例的22端口用于远程登录时，建议仅允许特定的IP访问，而非所有IP（`0.0.0.0/0`）。\n* **遵循最小权限原则**\n\n  在不需要普通安全组内ECS实例互相内网互通时，将普通安全组的组内连通策略设置为组内隔离。\n* **尽量保持单个安全组内规则的简洁**"
+    ]
+  },
+  {
+    "query": "删除快照怎么删除应用中的",
+    "positive": "\n* 在各地域检查并删除应用中的自动快照策略，确保后续不再自动新增快照。具体操作，请参见[删除自动快照策略](https://help.aliyun.com/zh/ecs/user-guide/delete-an-automatic-snapshot-policy#task-1443760)。\n* 您也可以通过API接口完成以下操作：\n\n  + 删除指定快照：[DeleteSnapshot](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-deletesnapshot)\n  + 设置自动快照是否随云盘释放：[ModifyDiskAttribute](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-modifydiskattribute)",
+    "negative": [
+      "ry\": 16384,\n        \"OSName\": \"CentOS  7.4 64 位\",\n        \"DeploymentSetGroupNo\": 1,\n        \"ImageId\": \"m-bp67acfmxazb4p****\",\n        \"VlanId\": \"10\",\n        \"ClusterId\": \"c-bp67acfmxazb4p****\",\n        \"ClockOptions\": {\n          \"PtpStatus\": \"\"\n        },\n        \"GPUSpec\": \"NVIDIA V100\",\n        \"AutoReleaseTime\": \"2017-12-10T04:04Z\",\n        \"DeletionProtection\": false,\n        \"StoppedMode\": \"KeepCharging\",\n        \"GPUAmount\": 4,\n        \"HostName\": \"testHostName\",",
+      "1. **在本机生成密钥对文件。**\n\n      **重要** \n\n      安全起见，请不要在实例中通过ssh-keygen创建密钥对，请不要将生成的私钥保存在需要连接的ECS实例中。\n\n      > 不同的工具生成密钥对的步骤有所差别，本步骤以`ssh-keygen`工具为例。\n\n      输入以下命令生成密钥对。\n\n      ```\n      ssh-keygen -t rsa -b 2048 -f id_rsa\n      ```\n\n      **参数说明：**\n\n      * `-t rsa`：代表密钥类型为`rsa`密钥对。\n      * `-b 2048`：代表密钥长度为2048位。\n      * `-f id_rsa`：代表生成密钥对的文件名以及保存位置。\n\n      系统将提示你输入一个口令（passphrase）。这个口令用于保护你的私钥。设置口令是推荐的安全措施。如果不需要口令，直接按回车键继续。\n\n      命令执行成功后，当前目录下会生成两个文件：\n\n      * `id_rsa`：你的私钥。\n      * `id_rsa.pub`：你的公钥。"
+    ]
+  },
+  {
+    "query": "错误码的操作步骤",
+    "positive": "as follows: %s. | ECS用量超过配额上限，请到阿里云官网控制台申请提升配额。 |\n| 403 | AclLimitExceed | %s | 网卡或实例的安全组规则数量超过限额值。 |\n| 403 | OperationDenied.ImageNotValid | The specified image is not available, please check the status of the image. | 镜像不可用，请检查镜像的状态 |\n| 403 | InvalidParameter.DataEncryptedKeyCreateFailed | Create kms data encrypted key fail. If you need further assistance, you can contact the KMS Technical Support. | 使用KMS主密钥创建数据密钥失败，请联系KMS值班同学进一步排查。 |",
+    "negative": [
+      "**更换操作系统是高风险操作，请务必了解以下事项：**\n\n* **系统盘**\n\n  + **数据清除**：原系统盘被释放，所有数据和分区信息将被永久清除。\n  + **ID 变更**：系统会分配一块新的系统盘，因此系统盘 ID 会发生变更。\n  + **属性不变**：云盘类型、实例 IP 地址和弹性网卡 MAC 地址保持不变。\n* **数据盘**\n\n  + **同类型系统更换**：在 Windows 系统间或 Linux 系统间更换，数据盘不受影响，更换后重新挂载即可。\n  + **跨类型系统更换**：在 Windows 与 Linux 系统间更换，新系统无法直接识别原数据盘的文件系统。需要参见[后续任务](#177e5a0119g5m)，重新初始化数据盘或安装特定软件才能读取数据。\n* **快照**\n\n  + 原系统盘的快照无法用于回滚新系统盘。\n  + 手动创建的快照会被保留。\n  + 自动快照的保留策略取决于是否开启自动快照随云盘释放功能。",
+      "**说明** \n\n如果您希望按文件信息，例如最后更新时间，批量下载文件。您可以通过[存储空间清单](https://help.aliyun.com/zh/oss/user-guide/bucket-inventory)筛选出符合您预期的文件清单，然后再使用以下方法批量下载。\n\n您可以使用以下方法，批量下载文件：\n\n* ossutil工具\n\n  使用ossutil工具的cp命令，结合-r（--recursive）选项，将指定文件目录内的文件批量下载到本地。详情请参见[ossutil批量下载](https://help.aliyun.com/zh/oss/developer-reference/cp-download-file#b890a408160a2)。\n* ossbrowser工具"
+    ]
+  },
+  {
+    "query": "使用Workbench登录Windows实例的操作步骤在哪里设置",
+    "positive": "1. 登录[ECS控制台-实例](https://ecs.console.aliyun.com/server/region)，在页面顶部选择资源组和地域。\n2. 找到目标实例后，单击**远程连接**，在对话框中，单击**通过Workbench远程连接**对应的**立即登录**。\n3. 在Workbench的**登录实例**页面，完成以下配置后，单击**登录**。\n\n   |  |  |\n   | --- | --- |\n   | **配置项** | **说明** |\n   | **实例** | 自动填充当前实例的信息。 |\n   | **连接方式** | 选择**终端连接**，该方式底层使用RDP协议连接实例。 |\n   | **认证方式** | **密码认证**。 |\n   | **用户名** | Windows实例默认用户名为Administrator。 |",
+    "negative": [
+      "\n云命令行是阿里云提供的一款基于浏览器的Shell工具。启动云命令行时，系统将会自动创建一台预装多款常用工具的Linux虚拟机供您免费使用。您可以通过以下方式打开云命令行：\n\n* 登录阿里云控制台，单击顶部导航栏的云命令行图标。\n* 在浏览器中直接访问[shell.aliyun.com](https://shell.aliyun.com)。\n\n有关云命令行的快速上手，请参见[快速入门](https://help.aliyun.com/zh/cloud-shell/quick-start/)。\n",
+      "证的有效期超出范围（400 - Missing or Invalid Parameters）**\n\n    实例元数据访问凭证有效期范围为1秒~21600秒，超过这个限制，会报错**400 - Missing or Invalid Parameters**。\n\n    ```\n    curl -X PUT \"http://100.100.100.200/latest/api/token\" -H \"X-aliyun-ecs-metadata-token-ttl-seconds: 21700\"\n    ```\n  + **请求中存在****X-Forwarded-For****标头（403 - Forbidden）**\n\n    ```\n    curl -X PUT \"http://100.100.100.200/latest/api/token\" -H \"X-Forwarded-For: www.ba****.com\"\n    ```\n  + **指定的实例元数据访问凭证无效（401 - Unauthorized）**"
+    ]
+  },
+  {
+    "query": "如何创建密钥对失",
+    "positive": "ion e) {\n            // 如果创建密钥对失败，则抛出运行时异常，包含错误信息\n            throw new RuntimeException(\"createKeyPair failed: \" + e.getMessage());\n        }\n    }\n\n    /**\n     * 查询VPC状态\n     *\n     * @param vpcId     VPC的ID\n     * @param vpcClient VPC客户端\n     * @return 返回VPC的状态信息\n     */\n    public static String describeVpc(String vpcId, com.aliyun.vpc20160428.Client vpcClient) {\n        try {\n            DescribeVpcsRequest request = new DescribeVpcsRequest()\n                    .setRegionId(Constants.REGION_ID)",
+    "negative": [
+      "具体分拆粒度对应的代码，比如OSS按照bucket拆分，则分拆项ID为bucket的具体代码。 |\n| 分拆占比 | SplitRatio | 账单的具体分拆项对应的用量占比。 |\n\n### **账单信息（**BillingDetails**）**\n\n|  |  |  |\n| --- | --- | --- |\n| **字段名称** | **英文字段** | **说明** |\n| 服务主体 | ServiceEntity | 提供产品或服务方的公司名称，阿里云售卖的产品较多，部分产品可能由不同公司负责。 |\n| \\***账单月份** | BillingMonth | 账单对应的月份。 |\n| \\***账单日期** | BillingDate | 用户使用云产品的消费日期。 |\n| \\***费用类型** | LineItemType | 用于标识账单来源，主要包括：各类订阅费用（预付、后付、退订、覆盖、未使用等）、按量付费、调账、抹零、保底封顶及佣金等。 |\n| 交易类型 | ConsumeType | 表示账单对应的业务操作，包括新购、续订、升级、降级、退订、换购、固费分期、后付费及调账等。 |",
+      "有时错误地将远程桌面服务所依赖的某些关键服务禁用，导致远程桌面服务异常。可通过以下操作进行检查。\n\n   1. 右键单击开始菜单，单击**运行**，输入`msconfig`，单击**确定**。\n   2. 在**系统配置**对话框中，单击**常规**页签，选中**正常****启****动(****N)**，单击**确定**。\n   3. [重启ECS实例](https://help.aliyun.com/zh/ecs/user-guide/restart-instances)。\n\n### **步骤六：检查远程终端服务配置**\n\n无法连接Windows实例的远程桌面可能是由于以下远程终端服务的配置异常。\n\n**说明** \n\n本示例以Windows Server 2008为例，其他Windows Server版本操作类似。\n\n#### **异常一：服务器侧自签名证书损坏**\n\n本地客户端如果是Windows 7以上版本的系统，会尝试与云服务器ECS建立TLS连接。若云服务器ECS侧用于TLS连接的自签名证书损坏，则会导致远程连接失败。"
+    ]
+  },
+  {
+    "query": "如何安装测试工具",
+    "positive": "hrough-workbench)。\n2. 分别在测试机和辅助测试机中安装测试工具并关闭防火墙。\n\n   1. 下载[latte.exe](https://github.com/microsoft/latte/releases/download/v0/latte.exe)工具，并获取存放路径。\n   2. 打开运行对话框，输入**powershell**进入PowerShell命令行。\n   3. 运行以下命令，关闭防火墙，避免防火墙可能阻止两台机器的连接。\n\n      ```\n      Set-NetFirewallProfile -Profile * -Enabled:false\n      ```\n\n      或者增加入方向规则以允许latte.exe数据包通过防火墙。",
+    "negative": [
+      "nux 8.10 64位 ARM版 | acs:almalinux\\_8\\_10\\_arm64 |\n    | AlmaLinux 8.9 64位 | acs:almalinux\\_8\\_9\\_x64 |\n    | AlmaLinux 8.8 64位 | acs:almalinux\\_8\\_8\\_x64 |\n    | AlmaLinux 8.8 64位UEFI版 | acs:almalinux\\_8\\_8\\_x64\\_uefi |\n    | AlmaLinux 8.7 64位 | acs:almalinux\\_8\\_7\\_x64 |\n    | AlmaLinux 8.7 64位 UEFI版 | acs:almalinux\\_8\\_7\\_x64\\_uefi |\n    | AlmaLinux 8.6 64位 | acs:almalinux\\_8\\_6\\_x64 |\n    | AlmaLinux 8.5 64位 | acs:almalinux\\_8\\_5\\_x64 |\n| AlmaLinux 8.5 64位 | acs:almalinux\\_8\\_5\\_x64 |",
+      "-computing-capabilities)。\n\ni5g包括的实例规格及指标数据如下表所示：\n\n|  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| **实例规格** | **vCPU** | **内存（GiB）** | **本地存储** | **网络基础带宽/突发（Gbit/s）** | **网络收发包PPS** | **云盘IOPS基础/突发** | **云盘带宽基础/突发（Gbit/s）** |\n| ecs.i5g.8xlarge | 32 | 128 | 1 \\* 1919 GB  (1 \\* 1788 GiB) | 16/32 | 1000万 | 20万/30万 | 10/12 |\n| ecs.i5g.16xlarge | 64 | 256 | 1 \\* 3839 GB  (1 \\* 3576 GiB) | 32/无 | 2000万 | 30万/无 | 16/无 |\n\n### 本地SSD型实例规格族i5ge"
+    ]
+  },
+  {
+    "query": "CLI调用示例的操作步骤",
+    "positive": "查询镜像为`m-bp12qhgxbmp5eh02****`标签的ECS实例信息。\n\n* 请求示例\n\n  ```\n  aliyun ecs DescribeInstances \\\n  --RegionId cn-hangzhou \\\n  --ImageId m-bp12qhgxbmp5eh02**** \\\n  --output cols=InstanceId,InstanceName,Description,ImageId,Status rows=Instances.Instance[]\n  ```\n* 返回示例",
+    "negative": [
+      "been reached for today. | 在当前地域命令执行次数已到达今天的额度。 |\n| 403 | ParameterCount.ExceedLimit | The number of command parameters exceeds the maximum number that can be set. | 自定义参数的个数超过限制。 |\n| 403 | ParameterKey.ExceedLimit | The length of the specified parameter key exceeds the maximum length that can be set. | 指定的参数Key长度超过可设置的最大长度。 |\n| 403 | ParameterType.NotSupported | The type of parameter value is not supported. |  |",
+      "tags-to-query-cloud-resources)。\n* **使用标签控制资源访问**\n\n  + 使用标签对ECS实例进行分组并授权，以满足RAM用户只能查看和操作被授权资源的需求。具体操作，请参见[使用标签对ECS实例进行分组授权](https://help.aliyun.com/zh/ram/use-cases/use-tags-to-grant-access-to-ecs-instances-by-group)。\n  + 通过RAM的自定义策略指定授权的标签，利用标签限制RAM用户只能查看和管理指定的ECS实例。具体操作，请参见[使用标签限制RAM用户管理指定的ECS实例](https://help.aliyun.com/zh/ram/use-cases/use-tags-to-control-access-to-ecs-resources-1)。\n* **使用标签进行自动化运维**"
+    ]
+  },
+  {
+    "query": "**配置项说明**的操作步骤",
+    "positive": "nstance#concept-qct-gfl-xdb)。 |\n\n#### **（可选）标签**\n\n**标签**由一对键值（Key-Value）组成，用来标识创建的实例、云盘、弹性网卡主网卡，便于检索和管理资源。可选择已有的标签，或者填写标签键和标签值即时创建标签。关于标签的更多信息，请参见[标签](https://help.aliyun.com/zh/ecs/user-guide/label-overview#concept-jzp-qtd-zdb)。\n\n### **（可选）高级选项**\n\n高级选项包括主机名、实例元数据、实例自定义数据等，用于定制实例在控制台和操作系统内显示的信息或使用方式。",
+    "negative": [
+      ": gcc make patch gcc-c++ dkms cmake kernel-\n      vel redhat-rpm-config rpm-build libnl3-devel ninja-build perl-gen\n      hon3-docutils\n          temp dir            : /tmp/ERDMA.120833\n          log file            : /tmp/install-erdma.log.120833\n      ====================================================================\n      Checking for Linux headers availability...\n      Verifying dependencies...\n      Removing erdma package...\n      Start to uninstall rdma-core libraries...",
+      "\n调用[DeleteKeyPairs](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-deletekeypairs)，并指定`KeyPairNames`为要删除的密钥对名称列表。\n\n\n在需要设置多个用户使用ECS实例时，请遵循以下步骤，创建普通用户并启用远程访问。\n"
+    ]
+  },
+  {
+    "query": "通过阿里云客户端管理ECS实例的常见问题在哪里设置",
+    "positive": "*下载OSS文件**。\n\n#### **为何无法使用临时密码登录或通过云助手连接ECS实例？**\n\n该功能依赖云助手在实例内部正常运行。自2017年12月1日起，通过公共镜像创建的ECS实例已预装云助手Agent，若实例未安装云助手请[手动安装云助手Agent](https://help.aliyun.com/zh/ecs/user-guide/install-the-cloud-assistant-agent#:~:text=%E4%BA%91%E5%8A%A9%E6%89%8BAgent-,%E5%AE%89%E8%A3%85%E4%BA%91%E5%8A%A9%E6%89%8BAgent,-%E5%8F%82%E4%B8%8E%E8%80%85%EF%BC%9A)。",
+    "negative": [
+      "-families#concept-sx4-lxv-tdb)文档查询ECS实例支持的弹性网卡数量。\n  + 通过[OpenAPI](https://next.api.aliyun.com/api/Ecs/2014-05-26/DescribeInstanceTypes?lang=JAVA&params=%7B%22InstanceTypes%22:%5B%22ecs.c1.large%22%5D%7D&tab=DOC)进行查询，通过指定已有节点的实例规格`InstanceTypes`，单击**发起调用**，返回值中`EniQuantity`表示实例规格支持的弹性网卡上限，`EniPrivateIpAddressQuantity`表示单个弹性网卡支持的私有IP数量。`EniTotalQuantity`表示实例规格支持的总网卡数量。\n单个弹性网卡支持的私有IP数量。`EniTotalQuantity`表示实例规格支持的总网卡数量。",
+      "如果您需要续费包年包月实例，且下个周期业务需求下降或实例规格过剩，您可以通过续费降配功能，在续费包年包月ECS实例的同时，在同一规格族内降低实例规格配置（vCPU和内存）、变更公网带宽或转换数据盘计费方式等，节省下个周期的实例成本。\n"
+    ]
+  },
+  {
+    "query": "实例RAM角色怎么设置",
+    "positive": "t.getSecurityToken()\n           );\n       }\n   }\n\n   public class Demo {\n       public static void main(String[] args) throws Exception {\n           String roleName = \"YOUR_ROLE_NAME\";\n           String endpoint = \"YOUR_ENDPOINT\";\n           String bucketName = \"YOUR_BUCKET_NAME\";\n\n           // 2. 使用自定义 Provider 初始化 OSS 客户端\n           CredentialsProvider provider = new InstanceRoleCredentialProvider(roleName);\n           OSS ossClient = new OSSClientBuilder().build(endpoint, provider);",
+    "negative": [
+      "urpose-instance-families#g8ae)、[g8a](https://help.aliyun.com/zh/ecs/user-guide/cpu-options-of-general-purpose-instance-families#g8a)、[g7a](https://help.aliyun.com/zh/ecs/user-guide/cpu-options-of-general-purpose-instance-families#g7a)、[g7](https://help.aliyun.com/zh/ecs/user-guide/cpu-options-of-general-purpose-instance-families#g7)、[g6a](https://help.aliyun.com/zh/ecs/user-guide/cpu-options-of-general-purpose-instance-families#g6a)、[g6](https://help.aliyun.com/zh/ecs/user-guide/cpu-options-of-general-purpo",
+      "选择**属性**。\n   3. 在弹出的对话框中，单击**卷**页签，查看**磁盘分区形式**。\n\n      因分区格式限制，若为MBR分区且扩容后容量大于2TiB需转换分区。否则无需转换，直接[扩容分区与文件系统](https://help.aliyun.com/zh/ecs/user-guide/resize-windows-cloud-disks#2d4fabbcd3x4f)。\n4. 转换分区类型。\n\n   1. 右键单击目标磁盘下的卷，选择**删除卷**，并在弹出的删除简单卷对话框中，单击**是**。\n\n      > 若删除卷失败，通常是因程序占用导致。建议在业务低峰期重启实例以解除占用，再尝试删除。\n\n      **重要** \n\n      **删除卷**会清除该卷上的所有数据，请务必在删除前，确保已备份数据。\n   2. 目标磁盘下全部的卷删除完毕后，右键单击磁盘，选择**转换成GPT磁盘**。\n   3. 查看分区转换是否生效。\n\n      右键单击磁盘，在弹出菜单中选择**属性**>**卷**，若**磁盘分区格式**为`gpt`表示分区转换成功。\n5. 重新分区。"
+    ]
+  },
+  {
+    "query": "Ubuntu的操作步骤",
+    "positive": "器、存储卷和网络。这些数据默认存储在`/var/lib/docker/`目录。需手动删除此目录。\n\n1. 安装Docker社区版本。\n\n   > 非阿里云服务器，需将`http://mirrors.cloud.aliyuncs.com`替换为`https://mirrors.aliyun.com`\n\n   ```\n   #更新包管理工具\n   sudo apt-get update\n   sudo apt-get -y install apt-transport-https ca-certificates curl software-properties-common\n   #添加Docker软件包源（使用keyrings方式管理GPG密钥）\n   sudo install -m 0755 -d /etc/apt/keyrings\n   curl -fsSL http://mirrors.cloud.aliyuncs.com/docker-ce/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg",
+    "negative": [
+      "ry ENI. Default value: `Standard`. Valid values:\n\n  + `Standard`: Uses the TCP communication mode.\n  + `HighPerformance`: Uses the remote direct memory access (RDMA) communication mode with Elastic RDMA Interface (ERI) enabled.\n* `network_card_index` - (Optional, ForceNew, Int, Available since v1.227.1) The index of the network card for Primary ENI.\n* `queue_pair_number` - (Optional, ForceNew, Int, Available since v1.227.1) The number of queues supported by the ERI.",
+      "5 元。\n2. 以同样的方式查询并计算B类实例的费用。\n\n   B类实例单台的价格，如下表所示。\n\n   |  |  |  |  |\n   | --- | --- | --- | --- |\n   | **计费项** | **按量付费的单价（元/小时）** | **节省计划折扣** | **节省计划折后的费用（元/小时）** |\n   | 云服务器配置费用（即计算部分费用） | 0.62 | 2.73折 | 0.1693 |\n   | 系统盘费用 | 0.0417 | 4.12折 | 0.0172 |\n   | 网络固定带宽费用 | 0.189 | 4.25折 | 0.0803 |\n\n   因此，使用节省计划后，B类实例的每小时总费用为：(0.1693 + 0.0172 + 0.0803) \\* 5 = 1.334 元。\n3. 计算得出合适的每小时承诺消费值，即A类实例与B类实例折后的费用总和。\n\n   本示例中，推荐选择的每小时承诺消费为：8.2875 + 1.334 = 9.6215 元。\n\n**为非指定规格的ECI实例计算每小时承诺消费**"
+    ]
+  },
+  {
+    "query": "专有网络与交换机的**修改网段**在哪里设置",
+    "positive": "创建专有网络时，为其指定的IPv4网段是专有网络的主网段。控制台不支持修改专有网络的主网段，但可以调整[ModifyVpcAttribute](https://help.aliyun.com/zh/vpc/developer-reference/api-vpc-2016-04-28-modifyvpcattribute)接口的`CidrBlock`参数，在主网段内放大或缩小网段。需确保缩小后的网段包含已经使用的IP地址。\n\n专有网络的IPv6网段、交换机的IPv4/IPv6网段，均不支持修改。\n\n### **使用附加网段扩充网段地址**\n\n当专有网络的可用IP地址数不足以满足扩展的业务规模，或者前期网络规划不当导致地址不足时，可以使用附加网段扩充VPC地址空间。\n\n附加网段与主网段同时生效，可用于创建交换机、部署ECS等云产品资源。\n\n> 1、不能使用100.64.0.0/10、224.0.0.0/4、127.0.0.0/8或169.254.0.0/16网段作为IPv4附加网段。\n\n> 2、附加网段的地址块不能与主网段重叠。",
+    "negative": [
+      "状态 | 有状态 | 无状态 |\n| 用途 | 实例的精细化防火墙 | 子网的边界访问控制 |\n\n#### **实例主网卡的安全组如何更换/添加？**\n\n安全组实际作用在ECS实例的[弹性网卡](https://help.aliyun.com/zh/ecs/user-guide/eni-overview)上。ECS实例详情页面上安全组页签中配置的安全组，即为实例主网卡的安全组。可参考[为实例关联安全组](#27b7f02b27u7s)更改实例主网卡关联的安全组。\n\n#### 安全组规则设置为全部拒绝后，如何允许阿里云内部服务访问**？**\n\n添加入方向安全组规则，允许来自`100.64.0.0/10`地址段的访问。阿里云使用该保留地址段对实例进行健康检查和可用性监控。\n`100.64.0.0/10`地址段的访问。阿里云使用该保留地址段对实例进行健康检查和可用性监控。",
+      "X-netcfg.yaml` 生成辅助网卡的网络接口配置文件，然后按照如下所示修改对应信息即可。\n\n     ```\n     network:\n         version: 2\n         ethernets:\n             eth1:\n                 dhcp4: true\n                 match:\n                      macaddress: 00:16:3e:xx:xx:xx \n                 set-name: eth1\n     ```\n\n     + dhcp4：是否为该接口启用 IPv4 的 DHCP，取值为 true 或 false。\n     + match：匹配网络接口的属性，如 macaddress。\n\n       您可以在控制台上或通过API查看弹性网卡的MAC地址。\n\n   ##### **传统Debian系Linux（早期Ubuntu）**"
+    ]
+  },
+  {
+    "query": "alicloud_security_group怎么设置",
+    "positive": "The following arguments are supported:\n\n* `description` - (Optional) The description of the security group. The description must be `2` to `256` characters in length. It cannot start with `http://` or `https://`.\n* `inner_access_policy` - (Optional, Available since v1.55.3) The internal access control policy of the security group. Valid values:\n  + `Accept`: The internal interconnectivity policy.\n  + `Drop`: The internal isolation policy.",
+    "negative": [
+      "lease try other resources. | 未找到价格，请修改相应的参数值重试。 |\n| 400 | InvalidResourceType.ValueNotSupported | The specified parameter ResourceType is not valid. | 指定的资源类型不合法。 |\n| 400 | InvalidPriceUnit.ValueNotSupported | The specified parameter PriceUnit is not valid. | 指定的PriceUnit参数无效。 |\n| 400 | IncorrectImageStatus | The specified image is an Alibaba Cloud Marketplace image. The sale of this image has ended. For more information, contact the image service provider. | 指定的镜像为阿里云市场镜像。此镜像的售卖已经结束。更多信息请联系镜像服务提供商。 |",
+      "|  |  |  |  |\n| --- | --- | --- | --- |\n| **功能名称** | **变更类型** | **功能概述** | **相关链接** |\n| VPC对等连接 | 新增 | 您可以通过VPC对等连接，实现两个同账号或跨账号VPC间同地域或跨地域的私网互通。 | * [VPC对等连接](https://help.aliyun.com/zh/vpc/vpc-peer-to-peer-connection#concept-2198116) * [使用VPC对等连接实现VPC私网互通](https://help.aliyun.com/zh/vpc/create-and-manage-vpc-peering-connection) * [VPC对等连接配置示例](https://help.aliyun.com/zh/vpc/vpc-peering-connection-configuration-example) *"
+    ]
+  },
+  {
+    "query": "使用预签名URL下载或预览文件怎么设置过期时间",
+    "positive": "dels\\GetObjectRequest(bucket:$bucket, key:$key);\n\n    // 调用presign方法生成预签名URL，设置过期时间\n    $result = $client->presign($request, [\n        'expires' => new \\DateInterval(\"PT{$expire}S\") // PT表示Period Time，S表示秒\n    ]);\n\n    // 输出预签名URL\n    echo \"预签名URL: \" . $result->url . PHP_EOL;\n} catch (Exception $e) {\n    echo \"错误: \" . $e->getMessage() . PHP_EOL;\n    exit(1);\n}\n```\n. $e->getMessage() . PHP_EOL;\n    exit(1);\n}\n```",
+    "negative": [
+      "| 实例数据盘信息列表。 |  |\n|  | object | 否 | 实例数据盘信息。 |  |\n| DiskCategory | string | 否 | 实例数据盘类型。您可通过该参数指定多种候选磁盘类型，指定顺序作为各磁盘类型的优先级顺序，当某一种磁盘不可用时，自动更换磁盘类型。取值范围：   * cloud\\_efficiency：高效云盘。 * cloud\\_ssd：SSD 云盘。 * cloud\\_essd：ESSD 云盘。 * cloud：普通云盘。 | cloud\\_efficiency |",
+      "* **仅适用于本地盘**实例的**物理备份**文件恢复。如需恢复云盘实例的快照备份，请参见[RDS MySQL快照备份文件恢复到自建数据库](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/restore-the-data-of-an-apsaradb-rds-for-mysql-instance-to-a-self-managed-mysql-instance-by-using-a-csv-file-or-an-sql-file)。\n* **用于恢复备份文件中的全部数据**。如仅需恢复部分库表，请参见[RDS MySQL逻辑备份文件恢复到自建数据库](https://help.aliyun.com/zh/rds/apsaradb-rds-for-mysql/restore-the-data-of-an-apsaradb-rds-for-mysql-instance-from-a-logical-backup-file-to-a-self-managed-mysql-instance#concept-zql-2c5-vfb)。"
+    ]
+  },
+  {
+    "query": "如何删除Dock",
+    "positive": "安装新版Docker前，卸载所有已安装的Docker组件。可以避免潜在的冲突和兼容性问题。\n\n**卸载旧版本的Docker**\n\n1. 卸载旧版Docker、相关软件包和软件源。\n\n   > 忽略提示软件包未安装的消息。这说明该软件包未安装。\n\n   ```\n   #删除Docker相关源\n   sudo rm -f /etc/apt/sources.list.d/*docker*.list\n   #卸载Docker和相关的软件包\n   for pkg in docker.io docker-buildx-plugin docker-ce-cli docker-ce-rootless-extras docker-compose-plugin docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove -y $pkg; done\n   ```\n2. 卸载Docker不会自动移除镜像、容器、存储卷和网络。这些数据默认存储在`/var/lib/docker/`目录。需手动删除此目录。",
+    "negative": [
+      "\n1. 前往[ECS控制台-自定义购买](https://ecs-buy.aliyun.com)页面。\n2. 在**网络与可用区**选择已有的专有网络和交换机，或者单击**创建专有网络**、**创建交换机**前往专有网络控制台进行新建。创建完成后，返回ECS实例创建向导并单击图标，查看并选择新建的专有网络和交换机列表。\n3. 勾选**指定主网卡主私网IP地址**并输入一个在所选交换机网段范围内的可用IP地址。\n\n   > 系统会实时校验IP地址的可用性，输入的IP地址不能是已被占用的地址或系统保留地址。\n\n   例如，所选交换机网段为 `172.27.48.0/20` 时，可输入 `172.27.48.1` 作为主私网 IP 地址。\n",
+      "\n扩展云盘容量时会收取新增容量的费用，计费方式和原云盘一致。\n\n* 包年包月云盘：容量扩展成功后，将立即以新容量进行计费。按剩余时长补足新旧容量差额费用。\n\n  差额费用=包月价格/30天\\*剩余时长\\*新增容量。\n\n  > 剩余时长单位为天，数值精确到秒。\n* 按量付费云盘：容量扩展成功后，将立即按新容量进行计费。计费时长以小时为单位折算，下一小时将生成当前小时的消费明细。\n\n如果已购买[存储容量单位包SCU](https://help.aliyun.com/zh/ecs/storage-capacity-units-1#concept-2150938)，可自动抵扣按量付费云盘账单。更多信息，请参见[块存储计费](https://help.aliyun.com/zh/ecs/block-storage-devices#concept-1937442)。\n"
+    ]
+  },
+  {
+    "query": "如何查询实例的地",
+    "positive": "riberenewalprice)接口，传入查询实例的地域、规格、续费时长等参数查询实例续费费用。\n* **查询指定范围内到期的云服务器：**通过调用[查询实例的详细信息列表](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-describeinstances)，并设置过滤参数ExpiredStartTime和ExpiredEndTime，查询一定时间范围内到期的实例信息。\n* **查询ECS实例的自动续费状态：**您可以调用[查询实例自动续费属性](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-describeinstanceautorenewattribute)，通过设置实例IDInstanceId和实例自动续费状态RenewalStatus，查询实例的自动续费状态或处于特定自动续费状态下的实例列表。\n自动续费状态RenewalStatus，查询实例的自动续费状态或处于特定自动续费状态下的实例列表。",
+    "negative": [
+      "-error-occurs-when-you-connect-to-the-database) |\n| cannot open user default database.Login failed | RDS SQL Server登录用户对应的默认数据库下没有关联的用户。 | [在此数据库下为登录用户创建一个关联的用户](https://help.aliyun.com/zh/rds/apsaradb-rds-for-sql-server/what-do-i-do-if-the-cannot-open-user-default-database-login-failed-error-is-returned-when-i-log-on-to-an-rds-for-sql-server-instance) |",
+      "s-and-operating-system-compatibility)。\n* **存储**：\n\n  + I/O优化实例。\n  + 支持NVMe协议。详情参见[NVMe协议概述](https://help.aliyun.com/zh/ecs/user-guide/nvme-protocol)。\n  + 支持的云盘类型：[弹性临时盘](https://help.aliyun.com/zh/ecs/user-guide/elastic-ephemeral-disks)、[ESSD云盘](https://help.aliyun.com/zh/ecs/user-guide/essds)、[ESSD AutoPL云盘](https://help.aliyun.com/zh/ecs/user-guide/essd-autopl-disks)和[ESSD同城冗余云盘](https://help.aliyun.com/zh/ecs/user-guide/regional-essd-disks/)。"
+    ]
+  },
+  {
+    "query": "实例登录凭证管理（登录名/密码/密钥对）怎么创建**`a",
+    "positive": "* `id_rsa`：你的私钥。\n      * `id_rsa.pub`：你的公钥。\n\n      **重要** \n\n      请妥善保存私钥，不要泄漏给他人。\n   2. **为用户绑定公钥。**\n\n      1. **创建**`authorized_keys`**配置文件。**\n\n         如果 `/root/.ssh` 目录或 `authorized_keys` 文件不存在，运行以下命令创建。\n\n         > 命令中`<username>`为待绑定公钥用户的用户名。\n\n         ```\n         sudo mkdir /home/<username>/.ssh\n         sudo touch /home/<username>/.ssh/authorized_keys\n         ```\n      2. **添加公钥。**",
+    "negative": [
+      "cessKeySecret, $endpoint, false);\n    // 生成签名URL。\n    $signedUrl = $ossClient->signUrl($bucket, $object, $timeout, \"PUT\", array('Content-Type' => 'image/png'));\n    // 打印返回的数据\n    echo $signedUrl;\n} catch (OssException $e) {\n    printf($e->getMessage() . \"\\n\");\n    return;\n}\n```\n\n##### Node.js",
+      "ntOS Stream 9（Intel官方推荐）   + AlmaLinux 8.5及以上   + Ubuntu 20.04（5.15.0及以上内核版本）。内核升级方式，请参见[升级Linux ECS实例的操作系统内核](https://help.aliyun.com/zh/ecs/user-guide/upgrade-the-linux-instance-kernel#d6dddf1056jvv) |\n| Intel通用算力型实例规格 | [通用算力型实例规格族u2i](https://help.aliyun.com/zh/ecs/user-guide/overview-of-instance-families#u2i) | 支持多代际处理器平台，兼容英特尔® 至强® 6处理器和第五代Intel® Xeon®可扩展处理器（Emerald Rapids） | Intel官方推荐：   * Windows：    + Windows Server 2022   + Windows Server 2025 * Linux：    + Alibaba Cloud Linux 3/4   + Ubuntu"
+    ]
+  },
+  {
+    "query": "通过阿里云客户端管理ECS实例的连接实例在哪里设置",
+    "positive": "SH)...**。\n3. 在对话框中，配置**用户名**和**端口**。并选择**认证方式**：\n\n   * **临时密码**：临时生成一个密钥对，并把公钥通过云助手发送到实例内，再使用私钥登录实例。此方式无需管理密码或密钥文件，更为简便。\n   * **密码**：需要输入ECS实例的密码。\n   * **密钥文件**：使用SSH私钥文件进行登录。可通过以下两种方式获取私钥文件。\n\n     > 在目标实例对应的**操作**列选择**实例系统管理** > **添加SSH密钥**，将SSH密钥绑定到ECS实例，后续可实现免密登录。",
+    "negative": [
+      "生一笔续费订单，续费月份会产生年费账单，其余月份不会扣款，因此账单中这些月份的续费费用显示为空。\n\n如需确认续费周期或查看自动续费设置，可登录**费用与成本**控制台，在**资源续订**页面查看实例的自动续费配置及下次续费时间。\n设置，可登录**费用与成本**控制台，在**资源续订**页面查看实例的自动续费配置及下次续费时间。",
+      "0万 | 是 | 150万 | 64 | 8 | 30 | 30 | 25万/无 | 16/无 |\n| ecs.g8ae.32xlarge | 128 | 512 | 64/无 | 1800万 | 是 | 300万 | 64 | 15 | 30 | 30 | 50万/无 | 32/无 |\n\n**说明** \n\necs.g8ae.large、ecs.g8ae.xlarge需开启巨型帧，才能达到15 Gbit/s的突发带宽。更多详情，请参见[巨型帧（Jumbo Frames）](https://help.aliyun.com/zh/ecs/user-guide/jumbo-frame/#section-vtb-klu-z5y)。\necs/user-guide/jumbo-frame/#section-vtb-klu-z5y)。"
+    ]
+  },
+  {
+    "query": "包年包月的计费规则在哪里设置",
+    "positive": "| --- | --- |\n| **计费项** | **包年包月价格** | **购买时长** |\n| [实例规格](https://help.aliyun.com/zh/ecs/instance-types) | 同一实例规格在不同地域下的价格可能不同，具体价格请参见[云服务器ECS定价页](https://www.aliyun.com/price/product)。 | 1周至5年，具体可购买时长请参见下单购买页面。  **说明**  如果您的实例用于Web服务，中国内地必须完成ICP备案，备案实例（含续费）时长需在3个月及以上，详细规则请参见[ICP备案前准备](https://help.aliyun.com/zh/icp-filing/basic-icp-service/user-guide/overview)。 |",
+    "negative": [
+      "高网络性能，2400万PPS网络收发包能力。\n\nebmg6a包括的实例规格及指标数据如下表所示。\n\n|  |  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| **实例规格** | **vCPU** | **内存（GiB）** | **网络基础带宽（Gbit/s）** | **网络收发包PPS** | **多队列** | **弹性网卡** | **单网卡私有IPv4地址数** | **单网卡IPv6地址数** | **云盘基础IOPS** | **云盘基础带宽（Gbit/s）** |\n| ecs.ebmg6a.64xlarge | 256 | 1024 | 64 | 2400万 | 32 | 31 | 10 | 1 | 60万 | 32 |\n\n**说明**",
+      "1. 选购实例：\n\n   在正式购买实例之前，您需要提前了解如下信息：\n\n   * 了解目前在售的实例规格族，同时根据您希望购买的地域进行库存查询，详情请参见[实例规格族](https://help.aliyun.com/zh/ecs/user-guide/overview-of-instance-families)、[ECS实例可购买地域](https://ecs-buy.aliyun.com/instanceTypes/#/instanceTypeByRegion)。\n   * 根据业务对实例的消耗情况，合理选择实例计费方式：[包年包月](https://help.aliyun.com/zh/ecs/user-guide/subscription-1)、[按量付费](https://help.aliyun.com/zh/ecs/user-guide/pay-as-you-go)、[抢占式实例](https://help.aliyun.com/zh/ecs/user-guide/preemptible-instances/)，以及是否搭配资源包进行成本优化，如[节省计划](https://help.ali"
+    ]
+  },
+  {
+    "query": "使用预签名URL下载或预览文件怎么设置",
+    "positive": "me string // 存储空间名称\n\tobjectName string // 对象名称\n)\n\n// init函数用于初始化命令行参数\nfunc init() {\n\tflag.StringVar(&region, \"region\", \"\", \"The region in which the bucket is located.\")\n\tflag.StringVar(&bucketName, \"bucket\", \"\", \"The name of the bucket.\")\n\tflag.StringVar(&objectName, \"object\", \"\", \"The name of the object.\")\n}\n\nfunc main() {\n\t// 解析命令行参数\n\tflag.Parse()\n\n\t// 检查bucket名称是否为空\n\tif len(bucketName) == 0 {\n\t\tflag.PrintDefaults()\n\t\tlog.Fatalf(\"invalid parameters, bucket name required\")\n\t}",
+    "negative": [
+      "lict？**\n\nECS实例触发节省停机效果后，计算资源（CPU和内存）、固定公网IP会被回收。\n\n如果需要在短时间内停机再开机，建议您在调用[StopInstance](https://help.aliyun.com/zh/ecs/api-stopinstance#doc-api-Ecs-StopInstance)时将StoppedMode设置为KeepCharging，或者在控制台上停止ECS实例时选择**普通停机模式**。\n\n#### **ECS实例触发节省停机效果后，为什么StartInstance时会报错OperationDenied.NoStock？**\n\nECS实例触发节省停机效果后，计算资源会被回收。如果库存不足，启动ECS实例时会报错OperationDenied.NoStock。建议您稍后重试启动ECS实例。\n\n#### **启用了节省停机模式后，停机再开机时公网IP会变化，怎么保持公网IP不变？**\n\nECS实例触发节省停机效果后，固定公网IP会被回收，下次启动时自动分配新的固定公网IP，因此会发生变化。",
+      "ser-guide/server-side-encryption#task-2349639)。 |\n   | 服务关联角色 | 当加密类型为**用户管理密钥（KMS）**时，您必须授权加密服务关联角色。更多信息，请参见[文件存储NAS服务关联角色](https://help.aliyun.com/zh/nas/security-and-compliance/service-linked-roles-of-nas#task-2051134)。 |\n   | 密钥ID | 当加密类型为**用户管理密钥（KMS）**时，请您在下拉列表中选择需要配置的密钥ID。 |\n   | 密钥别名 | 当加密类型为**用户管理密钥（KMS）**时，请您核对密钥别名。 |"
+    ]
+  },
+  {
+    "query": "怎样创建Clie",
+    "positive": "ment.GetEnvironmentVariable(\"OSS_ACCESS_KEY_ID\");\nvar accessKeySecret = Environment.GetEnvironmentVariable(\"OSS_ACCESS_KEY_SECRET\");\n// 填写Bucket名称，例如examplebucket。\nvar bucketName = \"examplebucket\";\n// 填写Object完整路径，完整路径中不包含Bucket名称，例如exampledir/exampleobject.txt。\nvar objectName = \"exampledir/exampleobject.txt\";\n// 填写Bucket所在地域对应的Region。以华东1（杭州）为例，Region填写为cn-hangzhou。\nconst string region = \"cn-hangzhou\";\n\n// 创建ClientConfiguration实例，按照您的需要修改默认参数。\nvar conf = new ClientConfiguration();",
+    "negative": [
+      "MM-ddTHH:mmZ`，采用 UTC +0 时区。 | 2017-12-07T22:40Z |\n| Filter.4.Value | string | 否 | 查询资源时的筛选值。指定该参数时必须同时指定`Filter.4.Key`参数，格式为：`yyyy-MM-ddTHH:mmZ`，采用 UTC +0 时区。 | 2017-12-08T22:40Z |\n| DeviceAvailable | boolean | 否 | **说明**  该参数正在邀测中，暂不支持使用。 | false |\n| IoOptimized | boolean | 否 | 是否是 I/O 优化型实例。取值范围：   * true：是。 * false：否。 | true |\n| NeedSaleCycle | boolean | 否 | **说明**  该参数正在邀测中，暂不支持使用。 | false |\n| InstanceType | string | 否 | 实例的规格。 | ecs.g5.large |\n| InstanceTypeFamily | string | 否 | 实例的规格族。 | ecs.g5 |",
+      "使用付费镜像创建ECS实例可能会产生镜像软件许可证费用。本文详细介绍了镜像费用的计费规则、费用示例以及费用明细查询方法。\n"
+    ]
+  },
+  {
+    "query": "使用私有池容量创建ECS实例的正文在哪里设置",
+    "positive": "购买资源预定后，阿里云以私有池的方式预留属性一致的资源，使用私有池容量创建实例时可以确保创建成功。本文介绍如何使用私有池容量创建ECS实例。\n\n**重要** \n\n释放预留的裸金属实例时，其占用的私有池容量需要较长时间才能恢复可用。在此期间，使用该部分容量创建新实例可能会失败。请合理规划实例的释放时间和频率。\n",
+    "negative": [
+      "快照策略。如果目标自动快照策略已经被应用到磁盘上，删除自动快照策略后，这些磁盘不再执行该策略。 |\n| [DescribeSnapshotPackage](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-describesnapshotpackage) | 查询某地域下已购买对象存储OSS存储包 | 调用DescribeSnapshotPackage查询您在一个阿里云地域下已经购买的OSS存储包。存储包可以用于抵扣标准快照存储容量，但不支持抵扣本地快照。 |\n| [LockSnapshot](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-locksnapshot) | 锁定快照 | 以合规模式锁定快照，以防止快照被意外或者恶意删除。快照锁定期间，任何用户都无法将其删除。 |",
+      "s.\n   ```\n2. 客户端连接测试。\n\n   打开客户端的计算机，在路径栏中访问以下地址。\n\n   地址格式为 `ftp://<FTP服务器公网IP地址>:21`。连接成功后，文件资源管理器中将显示 FTP 服务器目录下的文件。\n\n   在弹出的登录身份窗口中输入FTP用户与密码。成功登录后，即可上传及下载文件。\n录下的文件。\n\n   在弹出的登录身份窗口中输入FTP用户与密码。成功登录后，即可上传及下载文件。"
+    ]
+  },
+  {
+    "query": "实例RAM角色怎么设置",
+    "positive": "下。\n\n   > RAM角色需要授权`AliyunOSSReadOnlyAccess`权限策略。\n\n   ```\n   using System;\n   using Aliyun.OSS;\n   using Aliyun.Credentials.Models;\n   using Aliyun.Credentials;\n\n   namespace EcsRoleDemo\n   {\n       class Program\n       {\n           static void Main(string[] args)\n           {\n               string roleName = \"YOUR_ROLE_NAME\";\n               string endpoint = \"YOUR_ENDPOINT\";\n               string bucketName = \"YOUR_BUCKET_NAME\";",
+    "negative": [
+      "e | application/x-msdownload | .fax | image/fax |\n| .fdf | application/vnd.fdf | .fif | application/fractals |\n| .fo | text/xml | .frm | application/x-frm |\n| .g4 | application/x-g4 | .gbr | application/x-gbr |\n| . | application/x- | .gif | image/gif |\n| .gl2 | application/x-gl2 | .gp4 | application/x-gp4 |\n| .hgl | application/x-hgl | .hmr | application/x-hmr |\n| .hpg | application/x-hpgl | .hpl | application/x-hpl |\n| .hqx | application/mac-binhex40 | .hrf | application/x-hrf |",
+      "c-lgp-mgb)的方式上传单个文件，文件的大小不能超过48.8 TB。\n* 重命名文件的大小\n\n  控制台仅支持重命名1 GB及1 GB以下的文件，1 GB以上的文件建议使用SDK或者命令行ossutil工具。更多信息，请参见[重命名文件](https://help.aliyun.com/zh/oss/user-guide/rename-objects#task-mn1-cdj-1fb)。\n* 删除文件的数量\n\n  通过OSS控制台一次最多可删除100个文件，通过SDK一次最多可删除1000个文件，通过命令行工具ossutil以及图形化管理工具ossbrowser一次最多可删除的文件个数无限制。\n\n  **警告** \n\n  文件删除后无法恢复，请谨慎操作。\n* 同名文件被覆盖\n\n  默认情况下，如果上传的文件与已有文件同名，则覆盖已有文件。\n\n  **警告** \n\n  文件被覆盖后将丢失原有文件，请谨慎操作。为防止文件被意外覆盖，您可以通过为文件所在的Bucket开启版本控制，或者在上传请求的Header中携带参数x-oss-forbid-overwrite，并指定其值为true。\n传请求的Header中携带参数x-oss-forbid-overwrite，并指定其值为true。"
+    ]
+  },
+  {
+    "query": "如何设置最多 1",
+    "positive": "es.N`或`NetworkInterface.N.Ipv6AddressCount`。 |  |\n|  | string | 否 | 为主网卡指定一个或多个 IPv6 地址。支持设置最多 10 个 IPv6 地址，即 N 的取值范围：1~10。  取值示例：`Ipv6Address.1=2001:db8:1234:1a00::***`。  您需要注意：   * 设置了`Ipv6Address.N`时，`Amount`参数取值只能为 1，且不能同时设置`Ipv6AddressCount`。 * 如果`NetworkInterface.N.InstanceType`取值为`Primary`，则不能设置`Ipv6Addresses.N`或`Ipv6AddressCount`，而是需要设置`NetworkInterface.N.Ipv6Addresses.N`或`NetworkInterface.N.Ipv6AddressCount`。 | 2001:db8:1234:1a00::\\*\\*\\* |",
+    "negative": [
+      "pports-ipv6-addressing)。\n\nre4e包括的实例规格及指标数据如下表所示。\n\n|  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| **实例规格** | **vCPU** | **内存（GiB）** | **网络带宽（Gbit/s）** | **网络收发包PPS** | **多队列** | **弹性网卡** | **单网卡私有IPv4地址数** | **单网卡私有IPv6地址数** |\n| ecs.re4e.40xlarge | 160 | 3840 | 30 | 450万 | 16 | 15 | 10 | 1 |\nrge | 160 | 3840 | 30 | 450万 | 16 | 15 | 10 | 1 |",
+      "\n阿里云提供了两种体验方式：\n\n* **免费体验**：阿里云提供了已部署压测相关资源的预置环境，您无需开通资源，只需配置压测参数，即可免费体验压测。\n* **专属体验**：通过在瑶池数据库控制台快速部署参与性能压测的产品、工具和资源等，缩短了产品、工具部署和环境、数据初始化的时间，快速打造一套属于自己的压测环境。\n\n  您可以：\n\n  + 可按需配置资源的规格及压测的参数。\n  + 一键拉起相关资源，系统会自动创建资源、部署相关工具和数据集，节省了大量部署环境的时间。\n  + 可登录到部署WebUI的ECS实例进行参数、脚本的自定义和验证。\n"
+    ]
+  },
+  {
+    "query": "如何创建目标镜像",
+    "positive": "像，则先删除已有镜像，然后创建目标镜像。 * false：如果存在同名镜像，创建目标镜像失败。 |\n   | `image_force_delete_snapshots` | boolean | 否 | 是否删除同名镜像关联的快照。默认值：false。  * true：如果存在同名镜像，则先删除已有镜像和已有镜像关联的快照，然后创建目标镜像。 * false：如果存在同名镜像，创建目标镜像失败。 |\n   | `image_version` | string | 否 | 创建的自定义镜像的版本。 |\n   | `resource_group_id` | string | 否 | 资源组ID。 |\n   | `force_stop_instance` | boolean | 否 | 强制停机。默认值：false。 |\n   | `disable_stop_instance` | boolean | 否 | 默认情况下，Packer执行完provisioners后，会先停止实例再创建镜像。某些特殊场景，如在Windows实例中运行Sysprep，需要实例处于运行状态。默认值：false。 |",
+    "negative": [
+      "|  |  |  |  |\n| --- | --- | --- | --- |\n| **功能名称** | **变更类型** | **功能概述** | **相关链接** |\n| 路由 | 更新 | 自定义路由条目下一跳类型支持网关型负载均衡终端节点。 | * [路由表](https://help.aliyun.com/zh/vpc/vpc-route-table/) * [使用自定义路由表进行网络流量管理](https://help.aliyun.com/zh/vpc/network-traffic-management-using-custom-routing-tables) |\n| 更新 | 您可以修改自定义路由条目的下一跳，动态调整网络流量。 |",
+      "cky Linux 8.6 64位 | acs:rocky\\_linux\\_8\\_6\\_x64 |\n    | Rocky Linux 8.5 64位 | acs:rocky\\_linux\\_8\\_5\\_x64 |\n  + AlmaLinux\n\n    |  |  |\n    | --- | --- |\n    | **操作系统版本** | **镜像族系** |\n    | AlmaLinux 9.6 64位 ARM版 | acs:almalinux\\_9\\_6\\_arm64 |\n    | AlmaLinux 9.6 64位 | acs:almalinux\\_9\\_6\\_x64 |\n    | AlmaLinux 9.5 64位 ARM版 | acs:almalinux\\_9\\_5\\_arm64 |\n    | AlmaLinux 9.5 64位 | acs:almalinux\\_9\\_5\\_x64 |\n    | AlmaLinux 9.4 64位 | acs:almalinux\\_9\\_4\\_x64 |"
+    ]
+  },
+  {
+    "query": "**退订规则介绍**的操作步骤",
+    "positive": "ransfer-to-pay-as-you-go)。 | |\n\n### **节省计划退订规则**\n\n自2026年4月3日起，阿里云支持节省计划自助退订。退订条件和限制如下：\n\n|  |  |\n| --- | --- |\n| **条件** | **说明** |\n| **支持退订的类型** | * 未使用的节省计划：已购买但尚未产生任何抵扣的节省计划，可全额退款。 * 未生效的节省计划：购买时选择了未来指定时间生效的节省计划，可在生效日期之前全额退款。 * 续费的节省计划：续费周期尚未开始的节省计划续费订单，可退订续费部分。 |\n| **付费类型限制** | 仅支持**全预付**类型的节省计划自助退订。半预付和无预付类型暂不支持自助退订。 |\n| **不支持退订的情况** | 已产生抵扣的节省计划暂不支持自助退订。 |\n\n**说明** \n\n更多信息请参见[节省计划自助退订能力上线公告](https://www.aliyun.com/notice/118142)。\n\n### **不支持退订的场景**\n\n存在以下情况时，将无法退订或退款：",
+    "negative": [
+      "ecs/user-guide/enhanced-instance-families/#re4) * [内存增强型实例规格族re4e](https://help.aliyun.com/zh/ecs/user-guide/enhanced-instance-families/#re4e) * [内存网络增强型实例规格族se1ne](https://help.aliyun.com/zh/ecs/user-guide/memory-optimized-instance-families-1#se1ne) * [内存型实例规格族se1](https://help.aliyun.com/zh/ecs/user-guide/memory-optimized-instance-families-1#se1) | 请根据配额ID查看对应配额，具体操作请参见[查看或提升云服务器 ECS 规格配额](https://help.aliyun.com/zh/ecs/user-guide/quota-management#c3adabff96ubw)。",
+      "**指定**：指定一个开放私有池或者专有私有池。\n\n#### **步骤三：查看弹性保障信息**\n\n1. 访问[ECS控制台-资源管家](https://ecs.console.aliyun.com/resourceAssuranceV2/region)。\n2. 在页面左侧顶部，选择目标资源所在的资源组和地域。\n3. 在资源管家左侧导航栏，选择**购中确定性保障** > **资源预定**。\n4. 在**资源预定**页签下，筛选**预定方式**为**弹性保障**。\n5. 在筛选出的**弹性保障**列表中，单击弹性保障的ID，进入资源详情页查看私有池容量使用情况等信息。\n\n   在**关联实例**区域可查看使用该弹性保障创建的实例。\n\n### **API**\n\n#### **步骤一：创建和购买弹性保障**"
+    ]
+  },
+  {
+    "query": "退订规则怎么配置时，会根",
+    "positive": "。 | |\n| 实物类退订 | 线下交付的实物类商品，仍在可退货期限内，请您提交工单处理。 | |\n| [非全额退款](#2d5db47226xhy) | 非全额退订 | * 新购>5天的包年包月资源，或已产生使用量的资源包。 * 不满足全额退款规则，比如五天无理由退订资格已使用。 | |\n| 资源降配退款 | 当包年包月实例支持降低配置时，会根据新老配置的差价比例自动计算并退款。详细退款规则请参见[降配退款规则说明](https://help.aliyun.com/zh/user-center/description-of-downgrade-refund-rules)。 | |\n| 包年包月转按量付费 | 产品支持计费模式转换，转换时会自动计算并退还剩余费用。详细退款规则请参见[包年包月转按量付费退款规则说明](https://help.aliyun.com/zh/user-center/description-of-refund-rules-for-transfer-to-pay-as-you-go)。 | |\n\n### **节省计划退订规则**",
+    "negative": [
+      "通过芯片快速路径加速手段，完成存储、网络性能以及计算稳定性的数量级提升。\n* **适用场景**：\n\n  + 高安全可信要求场景，例如金融、政务、企业等。\n  + 高网络包收发场景，例如视频弹幕、电信业务转发等。\n  + Web前端服务器。\n  + 大型多人在线游戏（MMO）前端。\n  + 数据分析、批量计算、视频编码。\n  + 高性能科学和工程应用。\n* **计算**：\n\n  + 处理器与内存配比约为1:2。\n  + 处理器：2.5 GHz主频、3.2 GHz睿频的Intel ® Xeon ® Platinum 8269CY（Cascade Lake），计算性能稳定。\n  + 支持超线程配置。默认开启超线程配置，详情请参见[更改CPU选项](https://help.aliyun.com/zh/ecs/user-guide/specify-and-view-cpu-options#concept-2352963)。\n* **存储**：",
+      "y        = \"SpotWithPriceLimit\" # 设置上限价格的抢占式实例\n}\n\n# 创建备服务器 \nresource \"alicloud_instance\" \"test_backup_instance\" {\n  instance_name        = \"test_backup_instance_name\"\n  vswitch_id           = var.vswitch_id\n  instance_type        = var.instance_type\n  image_id             = var.image_id\n  system_disk_category = \"cloud_essd\"\n  security_groups      = [alicloud_security_group.test_security_group.id]\n  user_data = base64encode(<<-EOT\n    #!/bin/sh\n    yum install keepalived -y"
+    ]
+  },
+  {
+    "query": "DescribeAvailableResource的错误码在哪里设置",
+    "positive": "eter RegionId is not valid. | 指定的 RegionId 不合法。 |\n| 403 | InvalidDedicatedHostId.NotFound | The specified DedicatedHostId does not exist. |  |\n| 403 | InvalidParam.TypeAndCpuMem.Conflict | The specified 'InstanceType' and 'Cores','Memory' are not blank at the same time. | 不能同时指定规格、核数和内存 |\n| 403 | InvalidParam.Cores | The specified parameter 'Cores' should be empty. | 指定的参数“Cores”应为空。 |\n| 403 | InvalidParam.Memory | The specified parameter 'Memory' should be empty. | 指定的参数“Memory”应为空。 |",
+    "negative": [
+      "SD PL3云盘 | 4 | 每4 GB的SCU容量支持抵扣1 GiB ESSD PL3云盘。 |\n| 标准快照 | 0.12 | 每0.12 GB的SCU容量支持抵扣1 GB标准快照。 |\n\n### **抵扣顺序**\n\n* 云盘\n\n  云盘仅支持使用SCU抵扣按量存储费用，以节约使用成本。云盘存储费用的抵扣顺序为：SCU ＞ 按量付费。关于云盘更多的计费信息，请参见[块存储计费](https://help.aliyun.com/zh/ecs/block-storage-devices)。\n* 快照\n\n  快照支持使用OSS标准-本地冗余存储包、SCU或预留空间抵扣按量存储费用，以节约使用成本。\n\n  如果您已购买某个地域的预留空间，则不再支持购买同地域的标准-本地冗余存储包。因此快照存储费用的抵扣顺序存在以下两种情况：\n\n  + OSS标准-本地冗余存储包 ＞ SCU ＞ 按量付费\n  + 预留空间 > SCU > 按量付费\n\n  关于快照更多的计费信息，请参见[快照计费](https://help.aliyun.com/zh/ecs/snapshots-1)。\n\n### **抵扣示例**",
+      "\n| 名称 | 类型 | 描述 | 示例值 |\n| --- | --- | --- | --- |\n|  | object |  |  |\n| RequestId | string | 请求 ID。 | 473469C7-AA6F-4DC5-B3DB-A3DC0DE3\\*\\*\\*\\* |\n"
+    ]
+  },
+  {
+    "query": "实例登录凭证管理（登录名/密码/密钥对）怎么创建**`a",
+    "positive": "* `id_rsa`：你的私钥。\n      * `id_rsa.pub`：你的公钥。\n\n      **重要** \n\n      请妥善保存私钥，不要泄漏给他人。\n   2. **为用户绑定公钥。**\n\n      1. **创建**`authorized_keys`**配置文件。**\n\n         如果 `/root/.ssh` 目录或 `authorized_keys` 文件不存在，运行以下命令创建。\n\n         > 命令中`<username>`为待绑定公钥用户的用户名。\n\n         ```\n         sudo mkdir /home/<username>/.ssh\n         sudo touch /home/<username>/.ssh/authorized_keys\n         ```\n      2. **添加公钥。**",
+    "negative": [
+      "nsfer服务协议**，然后单击**立即更改**。转换完成后，新配置立即生效。\n\n**说明** \n\n阿里云也为您提供了[在实例列表页执行批量操作](https://help.aliyun.com/zh/ecs/user-guide/batch-operation-of-ecs-instances-through-the-ecs-console)的功能，选中多个待转换的实例后，进行批量转换操作。\nthrough-the-ecs-console)的功能，选中多个待转换的实例后，进行批量转换操作。",
+      "高网络性能，450万PPS网络收发包能力。\n\nebmr5s包括的实例规格及指标数据如下表所示。\n\n|  |  |  |  |  |  |  |  |  |  |\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n| **实例规格** | **vCPU** | **内存（GiB）** | **网络基础带宽（Gbit/s）** | **网络收发包PPS** | **连接数** | **弹性网卡** | **单网卡私有IPv4地址数** | **云盘基础IOPS** | **云盘基础带宽（Gbit/s）** |\n| ecs.ebmr5s.24xlarge | 96 | 768 | 32 | 450万 | 180万 | 32 | 10 | 20万 | 16 |\n6 | 768 | 32 | 450万 | 180万 | 32 | 10 | 20万 | 16 |"
+    ]
+  },
+  {
+    "query": "快照原理怎么创建第一份标",
+    "positive": "第一份快照（即全量快照）的全量大小与后续所有增量快照的增量大小之和。\n\n### 快照容量计算示例\n\n1. 假设某块云盘容量100 GiB，已写入数据量为30 GiB，其分别在10:00和11:00有业务修改和新业务数据写入，那么该云盘快照容量计算说明如下：\n\n   * 标准快照1：9:00时，云盘的数据量为30 GiB，此时创建第一份标准快照1，标准快照1为全量快照，备份当前云盘的全部数据量，全量大小为30 GB。\n   * 标准快照2：云盘继续覆盖写入10 GiB数据。在10:00时创建第二份标准快照2，标准快照2为增量快照，仅备份有变化的10 GB数据，对于另外未变化的20 GB数据，不重复备份，引用于标准快照1。\n   * 标准快照3：云盘继续新增写入10 GiB数据，此时云盘总数据量为40 GiB。在11:00时创建第三份标准快照3，标准快照3为增量快照，仅备份相比标准快照2有变化的10 GB数据，对于未变化的30 GB数据，不重复备份，其中20 GB引用于标准快照1，10 GB引用于标准快照2。",
+    "negative": [
+      "\n社区镜像由以下三方共同参与：\n\n其中：\n\n* 阿里云：仅提供平台支撑，社区镜像由镜像提供者发布并负责。\n* 镜像提供者：制作自定义镜像并发布为社区镜像，供他人使用。\n* 镜像使用者：通过社区镜像可以获取更丰富的镜像种类。\n",
+      "pledir/exampleobject.png。Object完整路径中不能包含Bucket名称。\nobject_name = 'exampledir/exampleobject.png'\n\ndef generate_presigned_url():\n    # 指定Header。\n    headers = dict()\n    # 指定Content-Type。\n    headers['Content-Type'] = 'image/png'\n    # 指定存储类型。\n    # headers[\"x-oss-storage-class\"] = \"Standard\"\n    # 生成签名URL时，OSS默认会对Object完整路径中的正斜线（/）进行转义，从而导致生成的签名URL无法直接使用。\n    # 设置slash_safe为True，OSS不会对Object完整路径中的正斜线（/）进行转义，此时生成的签名URL可以直接使用。"
+    ]
+  },
+  {
+    "query": "网络性能测试方法的准备测试环境在哪里设置",
+    "positive": "IP地址 | |\n* 测试ECS实例的网络带宽和网络时延\n\n  #### **Linux实例**\n\n  |  |  |  |\n  | --- | --- | --- |\n  | **测试示例** | **测试机** | **辅助测试机** |\n  | 实例规格 | ecs.g7.large | ecs.g7.large |\n  | 镜像 | Alibaba Cloud Linux 3 | Alibaba Cloud Linux 3 |\n  | 实例数量 | 1台 | 1台 |\n  | 网络 | 分配公网IP地址 | |\n\n  #### **Windows实例**\n\n  |  |  |  |\n  | --- | --- | --- |\n  | **测试示例** | **测试机** | **辅助测试机** |\n  | 实例规格 | ecs.g7.large | ecs.g7.large |\n  | 镜像 | Windows Server 2022 | Windows Server 2022 |\n  | 实例数量 | 1台 | 1台 |\n  | 网络 | 分配公网IP地址 | |\n2022 |\n  | 实例数量 | 1台 | 1台 |\n  | 网络 | 分配公网IP地址 | |",
+    "negative": [
+      "ider \"alicloud\" {\n  region = \"cn-hangzhou\"\n}\n```\n\n当然，region也是支持通过环境变量 `ALICLOUD_REGION`进行配置的。如果 region 没有显式声明也没有配置环境变量，**cn-beijing** 将是其默认配置值。\n果 region 没有显式声明也没有配置环境变量，**cn-beijing** 将是其默认配置值。",
+      "_master_refresh 5           # 发送ARP报文的时间间隔，单位为秒 \n\n        track_interface {\n            eth0                        # 绑定VIP的网卡，本示例配置为eth0\n        }\n    }' > /etc/keepalived/keepalived.conf\n    systemctl start keepalived\n  EOT\n  )                                           # 指定主服务器的初始化脚本，为主服务器安装keepalived\n  private_ip           = \"192.168.0.25\"       # 指定主服务器的私网IP\n  instance_charge_type = \"PostPaid\"           # 指定付费类型为按量付费\n  spot_strategy        = \"SpotWithPriceLimit\" # 设置上限价格的抢占式实例\n}"
+    ]
+  },
+  {
+    "query": "如何创建快照备份",
+    "positive": "### \n\n#### **更换系统盘应该注意什么问题？**\n\n更换系统盘之前建议您创建快照备份数据，并且您需要确保系统盘有1GiB以上的预留空间。否则更换系统盘后，实例可能无法正常启动。\n\n系统盘价格请参见[块存储价格](https://www.aliyun.com/price/product#/disk/detail)。\n\n#### **怎么避免错误操作引起的数据丢失？**\n\n在有操作风险的场景中，您可以提前创建快照备份数据。例如修改关键系统文件、日常数据备份、实例误释放恢复、预防网络攻击、更换操作系统、为生产环境提供数据支撑和其他具有操作风险的场景。出现错误操作时，您可以及时回滚云盘，降低风险。",
+    "negative": [
+      "guide/memory-optimized-instance-families-1#r8a) |\n| Intel实例 | * [通用型实例规格族g8i](https://help.aliyun.com/zh/ecs/user-guide/overview-of-instance-families#g8i) * [计算型实例规格族c8i](https://help.aliyun.com/zh/ecs/user-guide/overview-of-instance-families#c8i) * [实例规格族](https://help.aliyun.com/zh/ecs/user-guide/overview-of-instance-families#df2cd7816brdf) |\n\n### **新购ECS实例**\n\n如果您是新购ECS实例，可以在创建ECS实例过程中安装应用并配置性能加速。购买实例之后，只能通过命令行方式关闭性能加速能力或卸载已安装的应用。\n\n#### **安装应用性能加速**",
+      "`HostNames.N`参数不能同时设置。 | k8s-node-[1,4]-ecshost |\n| UniqueSuffix | boolean | 否 | 当创建多台实例时，是否为`HostName`和`InstanceName`自动添加有序后缀。有序后缀从 001 开始递增，最大不能超过 999。取值范围：   * true：添加。 * false：不添加。   默认值：false。  当`HostName`或`InstanceName`按照指定排序格式设置，未设置命名后缀`name_suffix`，即命名格式为`name_prefix[begin_number,bits]`时，`UniqueSuffix`不生效，名称仅按照指定顺序排序。  更多信息，请参见[批量设置有序的实例名称或主机名称](https://help.aliyun.com/zh/ecs/user-guide/batch-configure-sequential-names-or-hostnames-for-multiple-instances)。 | true |"
+    ]
+  },
+  {
+    "query": "实施步骤的操作步骤",
+    "positive": "配置安全组并**验证\n\n通过创建测试网页，验证环境是否配置成功。\n\n1. **配置安全组规则**\n\n   为使网站能被公网访问，需在实例的安全组中放行Web服务端口。\n\n   1. 前往[ECS控制台-实例](https://ecs.console.aliyun.com/server/region)单击目标实例ID，进入实例详情页。\n   2. 在实例详情页，单击**安全组**页签，然后单击目标安全组ID进入其详情页。\n   3. 在入方向规则列表中，单击**添加规则**，配置以下参数后保存。\n\n      * **授权策略**：**允许**\n      * **协议**：**自定义 TCP**\n      * **访问来源**：`0.0.0.0/0`\n      * **访问目的(本实例)**：`80/80`\n2. **创建测试页面**\n\n   在网站的根目录下（例如 `C:\\myphp`），创建一个名为`index.php`的文件，并填入以下内容：\n\n   ```\n   <?php\n       phpinfo();\n   ?>\n   ```\n3. **访问测试页面**",
+    "negative": [
+      "ecs/user-guide/import-an-image#concept-1375343) |\n  | 更新镜像 | 运维编排服务OOS为更新自定义镜像的场景提供了公共模版。您只需选择一个源镜像，输入更新镜像所需的云助手脚本等必要参数，就可以创建随机或定时的运维任务，一键更新自定义镜像。 | [更新自定义镜像](https://help.aliyun.com/zh/ecs/user-guide/update-a-custom-image#task-2320984) |\n  | 复制镜像 | 您需要在其他地域使用该镜像时，可以复制该镜像到目标地域。复制后的镜像独立存在，拥有唯一的镜像ID。 | [复制自定义镜像](https://help.aliyun.com/zh/ecs/user-guide/copy-an-image#concept-a3m-5dm-xdb) |",
+      "--copy-back /var/mysql_bkdata/\n   ```\n\n   参数解释：\n\n   |  |  |\n   | --- | --- |\n   | **参数** | **含义** |\n   | --defaults-file | 自建数据库的`my.cnf`文件，根据此配置文件中设置的**数据目录**（datadir），获取恢复数据的目标路径。 |\n   | --copy-back | XtraBackup工具的恢复命令。  该命令后配置存放备份文件的目录，即**备份解压目录**`/var/mysql_bkdata/`，XtraBackup工具将此目录数据恢复到自建数据库的**数据目录**中。 |\n\n#### **MySQL 5.5恢复**\n\n1. 恢复前准备。\n\n   ```\n   innobackupex --defaults-file=/var/mysql_bkdata/backup-my.cnf --apply-log /var/mysql_bkdata/\n   ```\n\n   参数解释："
+    ]
+  },
+  {
+    "query": "设置非root用户的公钥的操作步骤",
+    "positive": "/home/<username>/.ssh/authorized_keys\n      ```\n\n      将你的公钥内容粘贴到文件中。可配置多个公钥，每个公钥占一行。配置完成后保存并关闭文件。\n   3. **设置文件权限。**\n\n      SSH 要求严格的权限设置，错误的权限会导致 SSH 登录失败。\n\n      运行以下命令，设置正确的权限。\n\n      ```\n      sudo chown -R <username>:<username> /home/<username>/.ssh\n      sudo chmod 700 /home/<username>/.ssh\n      sudo chmod 600 /home/<username>/.ssh/authorized_keys\n      ```\n3. #### **开启SSH服务的公钥认证功能**\n\n   配置公钥后，必须在服务器上启用 SSH 公钥认证。否则，密钥登录会失败。\n\n   1. 备份SSH配置文件`/etc/ssh/sshd_config`。",
+    "negative": [
+      "您可以克隆已有的诊断线路并修改部分设置，例如仅修改源诊断对象或目的诊断对象，从而更快速地指定诊断线路。\n\n1. 访问[ECS控制台-自助问题排查](https://ecs.console.aliyun.com/troubleshooting)。\n2. 在页面左侧顶部，选择目标资源所在的资源组和地域。\n3. 在**网络连通性诊断**页签，找到诊断线路，在**操作**列中单击**克隆**。\n4. 设置诊断线路参数，然后单击**创建**。\n\n   |  |  |\n   | --- | --- |\n   | **参数** | **说明** |\n   | **线路名称** | 线路名称长度为2~128个字符，可以包含中文字符、英文字符、数字，以及特殊字符半角句号（`.`）、下划线（`_`）、短划线（`-`）和半角冒号（`:`），但不能以特殊字符、数字、`http://`或`https://`开头。 |\n   | **VPC** | 选择一个专有网络，诊断对象中至少要包括一个专有网络内的ECS实例或弹性网卡。 |",
+      "万 | 50万 | 16 | 8 | 30 | 30 | 10万/最高20万 | 6/最高10 |\n| ecs.r9i.6xlarge | 24 | 192 | 15/最高25 | 450万 | 60万 | 24 | 8 | 30 | 30 | 12万/最高20万 | 7.5/最高10 |\n| ecs.r9i.8xlarge | 32 | 256 | 20/最高32 | 600万 | 80万 | 32 | 8 | 30 | 30 | 20万/最高30万 | 10/最高12 |\n| ecs.r9i.12xlarge | 48 | 384 | 25/最高32 | 900万 | 160万 | 48 | 8 | 30 | 30 | 24万/最高32万 | 12/最高15 |\n| ecs.r9i.16xlarge | 64 | 512 | 28/最高36 | 1200万 | 200万 | 64 | 8 | 30 | 30 | 30万/最高40万 | 16/最高24 |"
+    ]
+  },
+  {
+    "query": "通过SDK创建并使用ECS实例的创建ECS实例在哪里设置",
+    "positive": ".setPermissions(permissions);\n\n            ecsClient.authorizeSecurityGroup(authorizeSecurityGroupRequest);\n        } catch (Exception e) {\n            throw new RuntimeException(\"authorizeSecurityGroup failed: \" + e.getMessage());\n        }\n    }",
+    "negative": [
+      "本文使用Arena工具在ACK集群上提交了一个基于Horovod的弹性深度学习训练任务，并配置了抢占式实例以优化成本。该任务设置了8个初始Worker，最小Worker数为1，最大Worker数可达128，实现基于抢占式实例的弹性训练。\n\n1. 执行以下命令，使用pip下载kubeai的依赖库。\n\n   ```\n   pip install kubeai\n   ```\n2. 获取[示例代码与数据集](https://github.com/AlanFokCo/bert-chinese-horovod-elastic)进行实践测试。\n\n   如下所示，在使用kubeai弹性训练组件（Job-Supervisor）时，为实现基于抢占式实例释放信号进行通知的Checkpoint机制，您还需要对原有训练脚本做出适应性修改。\n\n   ```\n   import kubeai.elastic as kubeai",
+      "\"121.40.**.**\"\n          ]\n        },\n        \"InnerIpAddress\": {\n          \"IpAddress\": [\n            \"10.170.**.**\"\n          ]\n        },\n        \"VpcAttributes\": {\n          \"VpcId\": \"vpc-2zeuphj08tt7q3brd****\",\n          \"NatIpAddress\": \"172.17.**.**\",\n          \"VSwitchId\": \"vsw-2zeh0r1pabwtg6wcs****\",\n          \"PrivateIpAddress\": {\n            \"IpAddress\": [\n              \"172.17.**.**\"\n            ]\n          }\n        },\n        \"EipAddress\": {\n          \"IsSupportUnassociate\": true,"
+    ]
+  },
+  {
+    "query": "怎样配置 PAT",
+    "positive": "### 下载并解压安装包\n\n1. 下载安装包。\n\n   * 下载最新版本：在浏览器中打开下载链接 <https://aliyuncli.alicdn.com/aliyun-cli-windows-latest-amd64.zip>，下载最新版本安装包。\n   * 下载历史版本：访问 [GitHub Releases](https://github.com/aliyun/aliyun-cli/releases) 页面可下载历史版本安装包。\n\n     Windows 适用安装包包名格式为 `aliyun-cli-windows-<version>-amd64.zip`。\n2. 将安装包中的可执行文件 `aliyun.exe` 解压至目标目录（建议 `C:\\AliyunCLI`），该目录将作为阿里云 CLI 的安装目录。\n\n   **说明** \n   * 该文件需要通过命令行终端运行，双击文件无法正常工作。\n   * 请记住此安装路径，后续配置 PATH 时需要使用。\n\n### 配置 PATH 环境变量",
+    "negative": [
+      "://help.aliyun.com/zh/ecs/user-guide/essds)、[ESSD AutoPL云盘](https://help.aliyun.com/zh/ecs/user-guide/essd-autopl-disks)和[ESSD同城冗余云盘](https://help.aliyun.com/zh/ecs/user-guide/regional-essd-disks/)。更多云盘信息，请参见[块存储概述](https://help.aliyun.com/zh/ecs/user-guide/elastic-block-storage-devices)。\n  + 单实例顺序读写性能最高可达64 Gbit/s，IOPS最高可达100万。\n* **网络**：",
+      "Alibaba Cloud Linux 3、Alibaba Cloud Linux 3 Pro和Alibaba Cloud Linux 2是阿里云自主研发的Linux系统镜像，属于公共镜像。Alibaba Cloud Linux支持多种ECS实例规格，包括弹性裸金属服务器。Alibaba Cloud Linux中默认搭载了阿里云CLI及其他软件包，方便您使用。关于阿里云CLI的更多信息，请参见[什么是阿里云CLI](https://help.aliyun.com/zh/cli/what-is-alibaba-cloud-cli#concept-rc3-qrc-bhb)。如果您要从其他Linux版本更换为Alibaba Cloud Linux，可以通过创建新实例或更换操作系统（系统盘）的方式进行更换。更多信息，请参见[Alibaba Cloud Linux](https://help.aliyun.com/zh/ecs/user-guide/alibaba-cloud-linux)。\n\n* Alibaba Cloud Linux 3"
+    ]
+  },
+  {
+    "query": "通过阿里云客户端管理ECS实例怎么启动远程会话",
+    "positive": "地域。\n2. 在实例列表中找到目标实例，在对应的**操作**列中选择**启动远程会话...**。\n\nWindows实例默认以system用户登录，且会话连接不支持图形化界面，仅支持命令行输入。\n\n#### **通过公网IP地址连接**\n\n1. 在阿里云客户端**首页**，单击**云服务器(ECS)**。在实例列表上方选择实例所在地域。\n2. 在实例列表中找到目标实例，在对应的**操作**列中选择**远程桌面(RDP)...**。\n3. 在弹出的对话框，确认连接信息，单击**连接**。阿里云客户端将启动操作系统的远程桌面应用。\n4. 在远程桌面连接窗口中，输入实例的登录密码完成连接。\n里云客户端将启动操作系统的远程桌面应用。\n4. 在远程桌面连接窗口中，输入实例的登录密码完成连接。",
+    "negative": [
+      "断能否从源诊断对象通过指定的协议访问目的诊断对象的指定端口，即是否连通。\n\n   **说明** \n\n   诊断过程大概需要几分钟，您可以在当前诊断线路列表中查看执行状态和等待诊断结果，也可以前往该诊断线路的详情页查看本次诊断任务的执行状态和诊断结果详情。具体操作，请参见[管理诊断任务](#section-1zf-3fz-dhq)。\n状态和诊断结果详情。具体操作，请参见[管理诊断任务](#section-1zf-3fz-dhq)。",
+      ".1.253\n```\n\n重启ECS实例后，绑定的弹性网卡网络配置失效（以太网 3无法识别网络）：\n\n```\nC:\\Users\\Administrator>ipconfig\nWindows IP 配置\n以太网适配器 以太网:\n   连接特定的 DNS 后缀 . . . . . . . :\n   本地链接 IPv6 地址. . . . . . . . : fe80::e9d9:70a7:70ea:cda4%3\n   IPv4 地址 . . . . . . . . . . . . : 192.168.1.166\n   子网掩码  . . . . . . . . . . . . : 255.255.255.0\n   IPv4 地址 . . . . . . . . . . . . : 192.168.1.167\n   子网掩码  . . . . . . . . . . . . : 255.255.255.0\n   默认网关. . . . . . . . . . . . . : 192.168.1.253\n以太网适配器 以太网 3:\n   连接特定的 DNS 后缀 . . . . . . . :"
+    ]
+  },
+  {
+    "query": "实例RAM角色的**常见问题**在哪里设置",
+    "positive": "。\n* **允许传递角色给云产品**：给云服务授予角色需要配合`ram:PassRole`权限。\n\n```\n{\n    \"Version\": \"1\",\n    \"Statement\": [\n        {\n            \"Effect\": \"Allow\",\n            \"Action\": [\n                \"ecs:Describe*\",\n                \"ecs:List*\",\n                \"ecs:AttachInstanceRamRole\",\n                \"ecs:DetachInstanceRAMRole\"\n            ],\n            \"Resource\": \"*\"\n        },\n        {\n          \"Effect\": \"Allow\",\n          \"Action\": [\n            \"ram:Describe*\",              \n            \"ram:List*\",",
+    "negative": [
+      "ep-1-create-a-vpc-that-supports-ipv6-addressing)。\n  + 支持ERI（Elastic RDMA Interface）。关于ERI的使用说明，请参见[在企业级实例上启用eRDMA](https://help.aliyun.com/zh/ecs/user-guide/configure-erdma-on-a-cpu-instance#task-2128004)。\n  + 支持巨型帧（Jumbo frames）。更多信息，请参见[巨型帧（Jumbo Frames）](https://help.aliyun.com/zh/ecs/user-guide/jumbo-frame/#section-vtb-klu-z5y)。\n  + 实例网络性能与实例规格对应，规格越高网络性能越强。\n* **安全**：支持可信计算（vTPM）特性。更多详情，请参见[可信计算能力概述](https://help.aliyun.com/zh/ecs/user-guide/overview-of-trusted-computing-capabilities)。",
+      "，在**操作**列单击**恢复快照**。\n3. 在**恢复安全组快照**对话框中，确认恢复信息。\n\n   * 在**入方向**和**出方向**页签下，对比**当前安全组规则**和**恢复后安全组规则**。\n   * 确认无误后，单击**确定**。\n\n### **删除安全组**\n\n**警告** \n\n删除安全组是一个不可逆的操作，将永久删除安全组下所有规则。在执行删除操作前，请确保备份相关配置。\n\n#### **控制台**\n\n1. 前往[ECS控制台-安全组](https://ecs.console.aliyun.com/securityGroup)，在目标安全组的**操作**栏单击**删除**。\n2. 在**删除安全组**对话框中，确认信息后，单击**确定**。\n\n   如果安全组没有关联的ECS实例和弹性网卡，在**删除安全组**对话框中仍提示**不可删除**时，可以单击**尝试强制删除**。\n\n#### **API**"
+    ]
+  },
+  {
+    "query": "Timeouts的操作步骤",
+    "positive": "\n-> **NOTE:** Available since v1.214.0.\n\nThe `timeouts` block allows you to specify [timeouts](https://developer.hashicorp.com/terraform/language/resources/syntax#operation-timeouts) for certain actions:\n\n* `create` - (Defaults to 5 mins) Used when create the Security Group.\n* `delete` - (Defaults to 10 mins) Used when delete the Security Group.\n* `update` - (Defaults to 5 mins) Used when update the Security Group.\n",
+    "negative": [
+      "-devices)。\n  + 小规格实例云盘IOPS和云盘带宽具备突发能力。\n* **网络**：\n\n  + 支持IPv4、IPv6。关于IPv6通信，参见[IPv6通信](https://help.aliyun.com/zh/ecs/user-guide/step-1-create-a-vpc-that-supports-ipv6-addressing-step-1-create-a-vpc-that-supports-ipv6-addressing)。\n  + 支持巨型帧（Jumbo frames）。更多信息，请参见[巨型帧（Jumbo Frames）](https://help.aliyun.com/zh/ecs/user-guide/jumbo-frame/#section-vtb-klu-z5y)。\n  + 实例网络性能与实例规格对应，规格越高网络性能越强。",
+      "| 变更时间 | 变更内容概要 | 操作 |\n| --- | --- | --- |\n| 2026-01-08 | OpenAPI 错误码发生变更 | [查看变更详情](https://api.aliyun.com/document/Ecs/2014-05-26/RunInstances?updateTime=2026-01-08#workbench-doc-change-demo) |\n| 2025-11-24 | OpenAPI 错误码发生变更 | [查看变更详情](https://api.aliyun.com/document/Ecs/2014-05-26/RunInstances?updateTime=2025-11-24#workbench-doc-change-demo) |\n| 2025-10-28 | OpenAPI 错误码发生变更 | [查看变更详情](https://api.aliyun.com/document/Ecs/2014-05-26/RunInstances?updateTime=2025-10-28#workbench-doc-change-demo) |"
+    ]
+  },
+  {
+    "query": "常见问题的操作步骤",
+    "positive": "*下载OSS文件**。\n\n#### **为何无法使用临时密码登录或通过云助手连接ECS实例？**\n\n该功能依赖云助手在实例内部正常运行。自2017年12月1日起，通过公共镜像创建的ECS实例已预装云助手Agent，若实例未安装云助手请[手动安装云助手Agent](https://help.aliyun.com/zh/ecs/user-guide/install-the-cloud-assistant-agent#:~:text=%E4%BA%91%E5%8A%A9%E6%89%8BAgent-,%E5%AE%89%E8%A3%85%E4%BA%91%E5%8A%A9%E6%89%8BAgent,-%E5%8F%82%E4%B8%8E%E8%80%85%EF%BC%9A)。",
+    "negative": [
+      "192.168.1.253\n      ```\n   3. 可以看到目前网络配置和路由信息如下：\n\n      |  |  |  |  |  |  |\n      | --- | --- | --- | --- | --- | --- |\n      | **网卡** | **网络掩码** | **默认网关** | **主私网IP地址** | **待配置私网IPv4地址1** | **待配置私网IPv4地址2** |\n      | 以太网（主网卡） | 255.255.255.0 | 192.168.1.253 | 192.168.1.201（已自动配置） | 192.168.1.202（未识别需配置） | 192.168.1.203（未识别需配置） |\n3. 打开网络和共享中心。\n4. 单击**更改适配器设置**。\n5. 双击当前主网卡网络名称**以太网**，然后在**以太网状态**对话框中单击**属性**。",
+      "g |\n  | 18 | systemctl restart systemd-networkd |\n  | 20 | systemctl restart systemd-networkd |\n  | Alibaba Cloud Linux 2 | 2 | systemctl  restart  network |\n  | Alibaba Cloud Linux 3 | 3 | systemctl restart  NetworkManager |\n* 如果 DHCP 选项集关联的 VPC 开启了[共享VPC](https://help.aliyun.com/zh/vpc/vpc-sharing#concept-2438978)功能，则 DHCP 选项集也会对共享 VPC 内的 ECS 生效。\n\n#### **修改 DHCP 选项集**\n\n默认 DHCP 选项集不支持修改，自定义 DHCP 选项集指定的域名和 DNS 服务器 IP 可修改。"
+    ]
+  },
+  {
+    "query": "通过SDK创建并使用ECS实例怎么设置",
+    "positive": "\"\\tsudo apt-get install -y default-jdk\\n\" +\n                \"\\tsudo apt-get install -y tomcat9\\n\" +\n                \"else\\n\" +\n                \"  yum install -y java\\n\" +\n                \"\\tyum install -y tomcat\\n\" +\n                \"fi\";\n        System.out.println(\"commandContent：\" + commandContent);\n        runCommand(commandContent, instanceIds, ecsClient);\n    }\n\n    public static class Constants {\n        // 地域\n        public static final String REGION_ID = \"cn-hangzhou\";",
+    "negative": [
+      "网地址从阿里云相关产品下载文件到ECS，可能会在相关产品侧产生流量费用，请仔细阅读相关计费说明。\n\n#### **包年包月实例开通固定公网IP为什么会有额外费用？**\n\n当包年包月实例开通按流量计费的固定公网IP时，可能会在ECS实例使用过程中根据实际使用的出网流量产生后付费费用。具体计费情况如下：\n\n* 包年包月实例：购买实例时无需对固定公网IP配置额外预付费，但使用过程中会在实际产生出网流量的计费周期内，产生相关费用。\n* 按量付费、抢占式实例：与实例其他配置费用一起按计费周期产生账单，在实际产生出网流量的计费周期内，产生相关费用。",
+      "tate | string | **说明**  该参数正在邀测中，暂未开放使用。 | null |\n| BondNetworkInterfaceId | string | **说明**  该参数正在邀测中，暂未开放使用。 | null |\n| SlaveInterfaceSpecification | object | **说明**  该参数正在邀测中，暂未开放使用。 |  |\n| SlaveNetworkInterfaceId | string | **说明**  该参数正在邀测中，暂未开放使用。 | null |\n| WorkState | string | **说明**  该参数正在邀测中，暂未开放使用。 | null |\n| BondNetworkInterfaceId | string | **说明**  该参数正在邀测中，暂未开放使用。 | null |\n| DeleteOnRelease | boolean | 释放实例时是否保留网卡。可能值：   * true：不保留。 * false：保留。 | true |"
+    ]
+  },
+  {
+    "query": "怎样创建时长受到",
+    "positive": "q2-pcx-ydb)。\n4. 当**是否支持扩容**列变为**是**后，单击**确认扩容**。\n\n   > 快照创建时长受到数据量和带宽等因素影响，可访问[ECS控制台-快照](https://ecs.console.aliyun.com/snapshot)，在目标快照的**进度**列中查看进度。\n5. 在**配置扩容方式与容量**向导页面，设置扩容参数并确认费用后，单击**扩容**。\n\n   **重要** \n\n   扩展云盘容量时会收取新增容量的费用。\n\n   |  |  |\n   | --- | --- |\n   | **参数** | **说明** |\n   | **扩容后的容量** | 扩容后容量不允许小于当前容量。 |\n   | **扩容方式** | * **在线扩容**（推荐）：扩展容量后无需重启实例，修改后的容量直接生效。 * **离线扩容**：云盘处于**待挂载**状态、实例处于**已停止**状态或[部分实例规格](#b0cc109b1b8ji)仅支持离线扩展容量。 |",
+    "negative": [
+      "v/vdb\n     ```\n  2. 在parted工具分区界面，输入以下内容，删除错误分区。\n\n     <错误分区number号>可以通过`print`指令查看。\n\n     **重要** \n\n     请在删除分区前，确保分区内无数据或者数据已备份。\n\n     ```\n     rm <错误分区number号>\n     ```\n  3. 运行以下命令，保证开始位置与结束位置的单位为MiB、GiB，重新划分分区。以MiB为例：\n\n     ```\n     mkpart data <开始容量>MiB <结束容量>MiB\n     ```\n* #### **创建文件系统时提示“Size of device /dev/vdb too big to be expressed”。**\n\n  原因：若数据盘容量为16 TiB，需使用1.42及以上版本的e2fsprogs工具创建ext4文件系统。否则将报错：",
+      "除数据擦除机制外，其他内容仅适用于云盘，不适用于本地盘和弹性临时盘。\n\n* 读写稳定性\n\n  在同一可用区中，业务数据以多副本的形式分布存储在块存储集群中，保证读写过程中的数据稳定性，保障数据的持久性和完整性。更多信息，请参见[ESSD 云盘数据可靠性](https://help.aliyun.com/zh/ecs/user-guide/essd-cloud-disk-data-reliability#concept-pnm-hdw-ydb)。\n* 主动备份\n\n  可以定期[手动创建单个快照](https://help.aliyun.com/zh/ecs/user-guide/create-a-snapshot)，提高业务数据的安全性。快照是阿里云备份产品，为云盘提供数据备份能力，确保日志和客户交易等信息有备份可查询。\n* 数据擦除机制\n\n  删除的数据不会被其他用户通过任何途径访问，分布式块存储系统中已删除的数据一定会被完全擦除。主要通过以下机制保证数据擦除的完整性："
+    ]
+  },
+  {
+    "query": "Workbench终端助手的**AI命令解释**在哪里设置",
+    "positive": "\n### **基本使用**\n\n在执行一条命令后，单击输出内容的末尾的，即可解释命令与输出内容。\n\n### **更多操作**\n\n**关闭该功能：**如果需要关闭该功能，隐藏，可参考以下方式：\n\n* **方式一**：在右键菜单中取消勾选**AI命令解释**。\n* **方式二**：单击界面右下角的，打开**AI 设置** > **Shell**，关闭**AI命令解释**。\n\n### **使用示例**\n\n**执行**`find . -name \"*log*\"`**后解释命令及输出结果**\n\n执行`find . -name \"*log*\"`后解释命令及输出如图所示。\n",
+    "negative": [
+      "兰克福）、美国（弗吉尼亚）、美国（硅谷）。\n\n### 突发性能实例规格族t6\n\nt6的特点如下：\n\n* vCPU持续提供基准性能，可突然提速，但受到CPU积分的限制\n* 相比上一代突发性能实例规格族t5，性价比进一步提升\n* 计算：\n\n  + 处理器：2.5 GHz主频的最新一代Intel ® Xeon ®服务器级别Cascade Lake处理器，睿频3.2 GHz\n  + 搭配DDR4内存\n* 存储：\n\n  + I/O优化实例\n  + 仅支持ESSD云盘、ESSD AutoPL云盘、SSD云盘和高效云盘\n\n    **重要** \n\n    受突发型实例规格限制，PL2和PL3性能级别的ESSD云盘无法发挥极致性能。建议您选择企业级的实例规格或者低性能级别的ESSD云盘。\n* 网络：\n\n  + 支持IPv4、IPv6\n  + 仅支持专有网络VPC\n* 适用场景：\n\n  + Web应用服务器\n  + 轻负载应用、微服务\n  + 开发测试压测服务应用\n\nt6包括的实例规格及指标数据如下表所示。",
+      "D EPYC™ MILAN处理器，单核睿频最高3.5 GHz，计算性能稳定。\n* **存储**：\n\n  + I/O优化实例。\n  + 支持的云盘类型：[ESSD云盘](https://help.aliyun.com/zh/ecs/user-guide/essds)、[ESSD AutoPL云盘](https://help.aliyun.com/zh/ecs/user-guide/essd-autopl-disks)和[ESSD同城冗余云盘](https://help.aliyun.com/zh/ecs/user-guide/regional-essd-disks/)。更多云盘信息，请参见[块存储概述](https://help.aliyun.com/zh/ecs/user-guide/elastic-block-storage-devices)。\n* **网络**："
+    ]
+  },
+  {
+    "query": "怎样创建/执行命",
+    "positive": "ser-guide/use-the-immediate-execution-feature)。 |\n   | 删除命令 | 在一个阿里云地域下，您可以保存的云助手命令的数量，请在[配额中心](https://quotas.console.aliyun.com/products/ecs/quotas)查看**云助手命令总数量上限**。建议您定期清理命令，保证充足的命令使用额度。  * 删除一条命令：找到需要删除的云助手命令，单击**操作栏**列的**删除**。 * 删除多条命令：选中目标云助手命令，单击底部的**删除命令**。 |\n   | 克隆命令 | 单击命令ID后**操作栏**列的**克隆**，克隆命令相当于为一份云助手命令新增版本。您可以完全保留被克隆的命令的所有信息，也可以修改命令的名称、描述、类型、内容、执行路径或者超时时间，参数说明请参见[创建/执行命令](https://help.aliyun.com/zh/ecs/user-guide/use-the-immediate-execution-feature)。 |\nser-guide/use-the-immediate-execution-feature)。 |",
+    "negative": [
+      "周期。 * 流量峰值比较稳定。 * 需要长期使用资源（价格比按量付费的按固定带宽计费更优惠）。 |\n| **成本优化** | * 升级为 [CDT](https://help.aliyun.com/zh/cdt/internet-data-transfers/)：CDT 支持免费流量额度、累计阶梯定价等优惠方式。 * [EIP 加入共享带宽](https://help.aliyun.com/zh/internet-shared-bandwidth/user-guide/create-an-internet-shared-bandwidth-instance#4138a4dfa6pxx)。 * 购买[共享流量包](https://help.aliyun.com/zh/dtp/product-overview/what-is-a-data-transfer-plan)抵扣流量。",
+      "购买 ECS 实例时可一并创建安全组，详见[为新建实例配置安全组](#d5e3ae530auge)。如需独立于实例创建安全组并关联至已有实例，按下方**控制台**或**API**步骤操作。\n\n#### **控制台**\n\n1. 前往[ECS控制台-安全组](https://ecs.console.aliyun.com/securityGroup)页面，单击**创建安全组**。\n2. 设置安全组名称及专有网络 VPC。\n3. 选择安全组类型为**普通安全组**或**企业级安全组**。\n4. 为安全组配置[安全组规则](https://help.aliyun.com/zh/ecs/user-guide/security-group-rules#title-0ni-i3p-j3c)。安全组规则为有状态规则，只需配置入方向，系统自动放行对应出方向响应流量。常用端口与授权建议见下表，完整示例见[安全组应用指导和案例](https://help.aliyun.com/zh/ecs/user-guide/security-groups-for-different-use-cases)。"
+    ]
+  },
+  {
+    "query": "如何创建**`a",
+    "positive": "1. **创建**`authorized_keys`**配置文件。**\n\n      如果 `/root/.ssh` 目录或 `authorized_keys` 文件不存在，运行以下命令创建。\n\n      > 命令中`<username>`为待绑定公钥用户的用户名。\n\n      ```\n      sudo mkdir /home/<username>/.ssh\n      sudo touch /home/<username>/.ssh/authorized_keys\n      ```\n   2. **添加公钥。**\n\n      使用文本编辑器（如 [Vim](https://help.aliyun.com/zh/ecs/user-guide/use-the-vim-editor)）打开`authorized_keys`文件。\n\n      ```\n      sudo vim /home/<username>/.ssh/authorized_keys\n      ```",
+    "negative": [
+      "integer | 否 | **说明**  该参数正在邀测中，暂不支持使用。 | false |\n| Cores | array | 否 | 实例规格的 vCPU 内核数目列表。 |  |\n|  | integer | 否 | 实例规格的 vCPU 内核数目，用于筛选符合要求的实例规格范围。更多信息，请参见[实例规格族](https://help.aliyun.com/zh/ecs/user-guide/overview-of-instance-families)。N 的取值范围：1~10。 | 2 |\n| Memories | array | 否 | 实例规格的内存大小列表。 |  |\n|  | number | 否 | 实例规格的内存大小，单位为 GiB，用于筛选符合要求的实例规格范围。更多信息，请参见[实例规格族](https://help.aliyun.com/zh/ecs/user-guide/overview-of-instance-families)。N 的取值范围：1~10。 | 4 |",
+      "大量虚拟化功能卸载到专用硬件，降低虚拟化开销，提供稳定可预期的超高性能。\n* **适用场景**：\n\n  + 涉及个人身份信息、医疗保健、金融和知识产权数据等敏感信息的场景。\n  + 多方计算中需要共享机密数据。\n  + 区块链场景。\n  + 机密机器学习。\n  + 高安全可信要求场景，例如金融、政务、企业等。\n  + 各种类型和规模的企业级应用。\n* **计算**：\n\n  + 处理器与内存配比为1:8，其中加密内存在内存中的占比约为50%。\n  + 处理器：采用Intel® Xeon® Granite Rapids，主频3.2 GHz，全核睿频3.6 GHz，计算性能稳定。\n* **存储**："
+    ]
+  },
+  {
+    "query": "怎样创建自动快照",
+    "positive": "**创建自动快照策略时选择保留时间为****永久保留****，快照还能删除吗？**\n\n可以删除。\n\n* 确认快照不再使用后，您可以直接手动删除快照。具体操作，请参见[删除快照](https://help.aliyun.com/zh/ecs/user-guide/delete-a-snapshot-1)。\n* 您也可以开启**自动快照随云盘**属性，释放云盘时会同步删除该云盘的自动快照。\n\n### \n\n#### **重启Linux系统ECS实例或者重新初始化系统盘后数据盘不见了怎么办？**\n\n* 问题现象：Linux实例重启或初始化系统之后，再登录实例运行`df -h`查看云盘挂载，发现数据盘不见了。\n* 问题原因：\n\n  + 重启实例：如果重启实例前，您没有将挂载信息写入到/etc/fstab中，重启实例之后实例不会自动挂载数据盘。\n  + 重新初始化系统盘：初始化系统盘会重置/etc/fstab文件，重新初始化系统盘后实例不会自动挂载数据盘。\n* 解决方案：",
+    "negative": [
+      "，执行前建议审查变更计划。\n\n**已经在控制台创建的资源能纳入 Terraform 管理吗？**\n\n可以。通过 `import` 功能将已有资源导入 Terraform 管理范围，导入后编写对应的配置文件描述这些资源，即可通过 Terraform 统一管理。\n\n**通过 Terraform 管理的资源还能在控制台操作吗？**\n\n技术上可以，但不推荐。Terraform 通过状态文件追踪资源状态，在控制台手动修改会导致状态文件与实际状态不一致，下次执行时可能覆盖手动修改或产生冲突。建议 Terraform 管理的资源统一通过 Terraform 操作。\n\n**Terraform 和 ROS 有什么区别？**",
+      "\n如果您不再需要通过公网访问ECS实例，或者需要更换EIP，建议解绑对应的EIP，以避免资源浪费。\n\n**重要** \n\n解绑EIP会导致ECS实例失去公网IP的访问能力，在解绑前请确保不再需要公网访问或有替代的网络连接方式。\n\n1. 访问[ECS控制台-实例](https://ecs.console.aliyun.com/server/region)。\n2. 在页面左侧顶部，选择目标资源所在的资源组和地域。\n3. 找到待解绑EIP的ECS实例，点击进入实例详情页面，在**全部操作**选择**网络和安全组** > **解绑弹性公网IP**。\n4. 在**解绑弹性公网IP**对话框中，确认提示信息。\n5. 单击**确定**。\n\n   **说明** \n\n   解绑成功后，在ECS实例页面的**IP地址**列不再显示EIP。\n6. （可选）解绑后的EIP仍会继续收费，如果不再使用请自行释放EIP。具体操作，请参见[释放按量计费EIP实例](https://help.aliyun.com/zh/eip/release-an-eip#task-2021625)。\n"
+    ]
+  },
+  {
+    "query": "请求参数的操作步骤",
+    "positive": "h/ecs/user-guide/limitations#SecurityGroupQuota1)。   您需要注意：   * 如果`NetworkInterface.N.InstanceType`取值为`Primary`，则必须设置该参数或`NetworkInterface.N.SecurityGroupId`。此时该参数的作用等同于`SecurityGroupIds.N`，但需要注意不能再设置`SecurityGroupId`、`SecurityGroupIds.N`或`NetworkInterface.N.SecurityGroupId`。 * 如果`NetworkInterface.N.InstanceType`取值为`Secondary`或空值，则该参数为非必填参数。默认值为 ECS 实例所属的安全组。 |  |",
+    "negative": [
+      "例ID，授予以下权限后，允许RAM用户修改任意定时任务的执行信息，且只能将指定实例加入定时任务。\n\n  ```\n  {\n    \"Version\": \"1\",\n    \"Statement\": [\n      {\n        \"Action\": \"ecs:ModifyInvocationAttribute\",\n        \"Resource\": [\n          \"acs:ecs:*:*:instance/i-instance-xxx\",\n          \"acs:ecs:*:*:invocation/*\"\n        ],\n        \"Effect\": \"Allow\"\n      }\n    ]\n  }\n  ```\n* 通过在Resource列表中设置实例ID与任务ID，授予以下权限后，RAM用户只能修改指定任务的执行信息，且只能将指定实例加入定时任务。",
+      "当您需要创建包含最新软件配置的自定义镜像时，可通过系统运维管理 OOS（CloudOps Orchestration Service）自动化生成更新后的镜像版本，用于后续ECS实例的快速部署。\n"
+    ]
+  },
+  {
+    "query": "如何创建RAM角",
+    "positive": "#### **一台ECS实例可以被授予几个RAM角色？**\n\n一台ECS实例在同一时刻最多只能被授予一个RAM角色。可通过收回后再授予的方式切换角色。\n\n#### **如何使用RAM用户给实例授予RAM角色？**\n\n为RAM用户授予以下权限，其他操作同[操作步骤](#e1a9f45827dp3)。\n\n* **管理RAM角色**：需要创建RAM角色并授权。\n* **授予/回收RAM角色**：需要进入实例详情页对实例做授予/回收RAM角色的操作。\n* **允许传递角色给云产品**：给云服务授予角色需要配合`ram:PassRole`权限。",
+    "negative": [
+      "sk --version [sfdisk，来自 util-linux 2.23.2]`**。**\n\n  **原因**：中文版操作系统使用了非en\\_US.UTF-8的字符编码类型。\n\n  **解决方案**：\n\n  + 运行`locale`命令查看ECS实例的字符编码类型，如果不是en\\_US.UTF-8，请将其修改为该编码。\n\n    - 运行以下命令，切换字符编码类型。\n\n      ```\n      export LANG=en_US.UTF-8\n      ```\n    - 如果问题仍未解决，运行以下命令，切换字符编码类型。\n\n      ```\n      export LC_ALL=en_US.UTF-8\n      ```\n  + 如果问题仍未解决，请尝试运行`reboot`命令重启ECS实例。\n\n  **重要** \n\n  当通过切换字符编码，成功完成扩容分区后，建议按需切回原有字符编码。\n* #### **运行扩容分区growpart命令时，提示**`mkdir: cannot create directory ... No space left on device`**。**",
+      "4位和Alibaba Cloud Linux 3.2104 LTS 64位。\n* **存储**：\n\n  + I/O优化实例。\n  + 支持NVMe协议。详情参见[NVMe协议概述](https://help.aliyun.com/zh/ecs/user-guide/nvme-protocol)。\n  + 支持的云盘类型：[ESSD云盘](https://help.aliyun.com/zh/ecs/user-guide/essds)、[ESSD AutoPL云盘](https://help.aliyun.com/zh/ecs/user-guide/essd-autopl-disks)和[ESSD同城冗余云盘](https://help.aliyun.com/zh/ecs/user-guide/regional-essd-disks/)。更多云盘信息，请参见[块存储概述](https://help.aliyun.com/zh/ecs/user-guide/elastic-block-storage-devices)。\n* **网络**："
+    ]
+  },
+  {
+    "query": "通过Terraform为弹性网卡绑定EIP的**编写配置文件**在哪里设置",
+    "positive": "e the zone where the ECS instance is located.\"\n}\n\n# 指定VSwitch的CIDR块，CIDR块需在VPC CIDR块的范围内\nvariable \"vswitch_cidr_block\" {\n  default     = \"192.168.0.0/24\"\n  description = \"Specify the CIDR block of the VSwitch. The CIDR block must be within the range of the VPC CIDR block.\"\n}\n\n# 访问弹性网卡的源地址\nvariable \"source_ip\" {\n  description = \"The IP address you used to access the ENI.\"\n  type        = string\n  default     = \"0.0.0.0/0\"\n}",
+    "negative": [
+      "copy-back --target-dir=/var/mysql_bkdata/\n   ```\n\n   参数解释：\n\n   |  |  |\n   | --- | --- |\n   | **参数** | **含义** |\n   | --defaults-file | 自建数据库的`my.cnf`文件，根据此配置文件中设置的**数据目录**（datadir），获取恢复数据的目标路径。 |\n   | --copy-back | XtraBackup工具的恢复命令。 |\n   | --target-dir | **备份解压目录**`/var/mysql_bkdata/`，XtraBackup工具将此目录数据恢复到自建数据库的**数据目录**中。 |\n\n#### **MySQL 5.7恢复**\n\n1. 恢复前准备。\n\n   ```\n   innobackupex --defaults-file=/var/mysql_bkdata/backup-my.cnf --apply-log /var/mysql_bkdata/\n   ```\n\n   参数解释：",
+      "换模式。  **说明**  进入替换模式后，编辑器左下角会显示`-- REPLACE --`。 |\n| 可视模式  （Visual Mode） | 在该模式下，您可以选择文本。命令（如，复制、替换、删除等）仅作用于选中的文档。 | 在普通模式下，按`v`即进入可视模式。  **说明**  进入可视模式后，编辑器左下角会显示`-- VISUAL --`。 |\n| 命令模式  （Command Mode） | 在该模式下，您可以查找字符串、替换字符串、显示行号、保存修改、退出编辑器等。 | 在普通模式下，按`:`即进入命令模式。 |\n串、替换字符串、显示行号、保存修改、退出编辑器等。 | 在普通模式下，按`:`即进入命令模式。 |"
+    ]
+  },
+  {
+    "query": "节省计划抵扣项及抵扣规则怎么创建的资产会",
+    "positive": "。\n\n如果您已经开通企业账号中心功能，您可以通过手动共享和自动共享两种方式开通节省计划跨账号共享\n\n* 手动共享：指定具体的资产ID进行共享，可以选择共享到特定账号或组织节点，此设置仅对该资产ID有效。\n* 自动共享：根据资产类型设定自动共享规则，新创建的资产会按照规则自动共享到指定范围。\n\n详细操作指引请参见[权益资产共享](https://help.aliyun.com/zh/user-center/equity-asset-sharing)。",
+    "negative": [
+      "y-as-you-go-to-subscription-1#PAYGtoSubs-china) |\n| 公网带宽 | 使用固定公网IP的实例，可以通过升降配功能转换带宽的计费方式。 | [转换固定公网IP的带宽计费方式](https://help.aliyun.com/zh/ecs/change-the-billing-method-for-network-usage-1#task-1935423) |",
+      "elerated-instance-families-1#title-s5q-62w-5xi) * [GPU计算型实例规格族gn7i](https://help.aliyun.com/zh/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1#title-0xr-tb2-8ac) * [GPU计算型实例规格族gn7s](https://help.aliyun.com/zh/ecs/user-guide/gpu-accelerated-compute-optimized-and-vgpu-accelerated-instance-families-1#title-r93-xsw-wx8) | * 阿里云公共镜像Ubuntu 22.04 * 阿里云公共镜像Ubuntu 24.04 |"
+    ]
+  },
+  {
+    "query": "云服务器ECS安全性怎么配置文件中。",
+    "positive": "nstance#doc-api-Ecs-StopInstance)、[RunInstances](https://help.aliyun.com/zh/ecs/api-runinstances#doc-api-Ecs-RunInstances)和[DeleteInstance](https://help.aliyun.com/zh/ecs/api-deleteinstance#doc-api-Ecs-DeleteInstance)等权限。\n\n### 云产品API调用使用实例角色而不是AK\n\n一般情况下，ECS实例的应用程序是通过阿里云账号或者RAM用户的AccessKey访问阿里云各产品的API。为了满足调用需求，需要直接把AccessKey固化在实例中，例如写在配置文件中。但是这种方式权限过高，存在泄露信息和难以维护等问题。因此，阿里云推出了实例RAM角色解决这些问题，一方面可以保证AccessKey安全，另一方面也可以借助RAM实现权限的精细化控制和管理。",
+    "negative": [
+      "使用该参数时请注意：   * 实例不能处于启动中（`Starting`）状态。 * 重启实例后生效。您可以在 ECS 控制台重启（具体操作，请参见[重启实例](https://help.aliyun.com/zh/ecs/user-guide/restart-instances)）或者调用 [RebootInstance](https://help.aliyun.com/zh/ecs/api-rebootinstance) 重启，在操作系统内部重启不能生效。   **说明**  如果传入`Password`参数，建议您使用 HTTPS 协议发送请求，避免密码泄露。 | Test123456&$ |",
+      "group)在安全组入方向规则中，设置SourcePrefixListId授权已经创建的前缀列表。\n* 调用[AuthorizeSecurityGroupEgress](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-authorizesecuritygroupegress)在安全组出方向规则中，设置DestPrefixListId授权已经创建的前缀列表。\n\n#### **使用**端口列表\n\n* 调用[CreatePortRangeList](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-createportrangelist)，创建一个端口列表。"
+    ]
+  },
+  {
+    "query": "通过购买页自定义购买ECS的**配置项说明**在哪里设置",
+    "positive": "及多产品统一计费等优势，为公网带宽费用管理提供高效经济的解决方案。相对于按量付费，有一定的折扣优惠。更多信息，请参见[什么是云数据传输CDT](https://help.aliyun.com/zh/cdt/product-overview/what-is-cdt)。  **重要**   * 自2024年12月12日0时起，您无需额外操作即可直接使用云数据传输（CDT），享受高效服务。 * 升级为CDT计费后，所有存量和新增的按流量计费实例将通过CDT统一计费和出账，按带宽计费的实例继续在原来的云产品上统计费用和出账。您可以前往费用与成本，在账单详情页面查看CDT的账单情况。 * 开通CDT即可获得 220 GB/月公网流量免费额度，其中20 GB/月可用于**中国内地地域**，200 GB/月可用于**非中国内地地域**。 |\n\n#### **安全组**\n\n安全组是一种虚拟防火墙，用于控制安全组内实例的入流量和出流量。更多信息，请参见[安全组概述](https://help.aliyun.com/zh/ecs/user-guide/overview-44#concept-o2y-mqw-ydb)。",
+    "negative": [
+      "| 45万 | 2 | 3 | 10 | 10 | 1 | 1万/最高5万 | 1.5/最高8 |\n| ecs.c7nex.xlarge | 4 | 8 | 5/最高24 | 90万 | 4 | 4 | 15 | 15 | 1 | 2万/最高5万 | 2/最高8 |\n| ecs.c7nex.2xlarge | 8 | 16 | 10/最高32 | 175万 | 8 | 6 | 15 | 15 | 2 | 2.5万/最高5万 | 3/最高8 |\n| ecs.c7nex.4xlarge | 16 | 32 | 20/最高40 | 300万 | 16 | 8 | 30 | 30 | 2 | 4万/最高5万 | 5/最高8 |\n| ecs.c7nex.8xlarge | 32 | 64 | 40/无 | 600万 | 32 | 8 | 30 | 30 | 4 | 7.5万/无 | 8/无 |\n| ecs.c7nex.16xlarge | 64 | 128 | 80/无 | 800万 | 32 | 15 | 50 | 50 | 4 | 15万/无 | 16/无 |",
+      "性网卡（ENI）的网卡队列数、所属安全组、队列深度、通讯模式以及释放实例时是否保留网卡等属性。 |\n| [DeleteNetworkInterface](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-deletenetworkinterface) | 删除弹性网卡（ENI） | 异步删除一张弹性网卡（ENI）。 |\n| [AttachNetworkInterface](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-attachnetworkinterface) | 附加弹性网卡到专有网络VPC类型实例上 | 调用AttachNetworkInterface接口，并可以指定NetworkInterfaceId、InstanceId、NetworkCardIndex等参数，附加一个弹性网卡（ENI）到一台专有网络VPC类型ECS实例上。 |"
+    ]
+  },
+  {
+    "query": "请求参数的操作步骤",
+    "positive": "口获得最新的规格表。  参数 InstanceType 的取值方式请参见本文开头的**接口说明**。 | ecs.g5.large |\n| SystemDiskCategory | string | 否 | 系统盘类型。取值范围：   * cloud：普通云盘。 * cloud\\_efficiency：高效云盘。 * cloud\\_ssd：SSD 云盘。 * ephemeral\\_ssd：本地 SSD 盘。 * cloud\\_essd：ESSD 云盘。 * cloud\\_auto：ESSD AutoPL 云盘。 * cloud\\_essd\\_entry：ESSD Entry 云盘。   参数默认值说明：   * 当 InstanceType 为已停售的实例规格，该参数默认值为`cloud`。 * 其它情况下，该参数默认值为`cloud_efficiency`。",
+    "negative": [
+      "周期。 * 流量峰值比较稳定。 * 需要长期使用资源（价格比按量付费的按固定带宽计费更优惠）。 |\n| **成本优化** | * 升级为 [CDT](https://help.aliyun.com/zh/cdt/internet-data-transfers/)：CDT 支持免费流量额度、累计阶梯定价等优惠方式。 * [EIP 加入共享带宽](https://help.aliyun.com/zh/internet-shared-bandwidth/user-guide/create-an-internet-shared-bandwidth-instance#4138a4dfa6pxx)。 * 购买[共享流量包](https://help.aliyun.com/zh/dtp/product-overview/what-is-a-data-transfer-plan)抵扣流量。",
+      "-26-describelaunchtemplates) | 查询一个或多个可用的实例启动模板 | 调用DescribeLaunchTemplates接口，并可以指定TemplateTag、TemplateResourceGroupId、LaunchTemplateId等参数，查询一个或多个实例启动模板的信息，例如启动模板总个数、模板创建时间、模板最新版本号等信息集合。 |\n| [DeleteLaunchTemplate](https://help.aliyun.com/zh/ecs/developer-reference/api-ecs-2014-05-26-deletelaunchtemplate) | 删除实例启动模板 | 指定参数LaunchTemplateId或LaunchTemplateName删除目标地域下的一个实例启动模板。 |"
+    ]
+  },
+  {
+    "query": "通过购买页自定义购买ECS怎么设置",
+    "positive": "### **付费类型**\n\n付费类型影响实例的计费和收费规则，不同付费类型的实例遵循的资源状态变化规则也存在差异。\n\n|  |  |  |\n| --- | --- | --- |\n| **付费模式** | **说明** | **相关文档** |\n| **包年包月** | 先付费后使用，最短可以按周购买。适用于长期稳定的业务，如7\\*24的Web服务、数据库服务等。 | [包年包月](https://help.aliyun.com/zh/ecs/subscription#subs-china) |\n| **按量付费** | 先使用后付费，计费周期精确到秒，方便您按需购买和释放资源。适用于有大幅波动的场景，如临时扩展、测试、电商抢购等。  **说明**  推荐搭配使用节省计划、预留实例券优化成本。",
+    "negative": [
+      "本文介绍如何在普通云服务器和弹性裸金属服务器中使用VFIO驱动替代UIO驱动，解决DPDK应用运行异常的问题。\n",
+      "阿里云将为您在使用Alibaba Cloud Linux操作系统过程中遇到的问题提供技术支持。 |\n| [第三方及开源公共镜像](#section-vcx-txj-dhb) | 由阿里云测试发布，确保镜像安全、稳定。第三方公共镜像包括：   * Windows系统：Windows Server * Linux系统：龙蜥（Anolis）OS、Ubuntu、CentOS、CentOS Stream、Redhat Enterprise Linux、Debian、OpenSUSE、SUSE Linux Enterprise Server、FreeBSD、CoreOS、Fedora CoreOS、Fedora、Rocky Linux和AlmaLinux等 | * 对于开源操作系统镜像，建议联系开源社区获得技术支持，同时阿里云提供相应的技术协助。 * 对于商业版镜像，阿里云提供许可证并联合操作系统原厂提供技术支持。 |\n\n**说明**"
+    ]
+  }
+]
